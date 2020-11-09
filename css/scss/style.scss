@@ -1,0 +1,75 @@
+@import 'Modules/nav', 'Modules/quote', 'Modules/header', 'Modules/content';
+.fence {
+  background-image: url("https://images.pexels.com/photos/113726/pexels-photo-113726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 70vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.bg-black {
+    background-color: black;
+}
+.white {
+    color: white;
+}
+.font {
+    font-family: 'Patua One', cursive;
+  }
+.font2 {
+    font-family: 'Grandstander', cursive;
+}
+.bold {
+  font-weight: bold;
+}
+.bar {
+  height: 5rem;
+  width: 100%;
+} 
+.middle {
+  margin-top: -5rem;
+}
+.bottom {
+  margin-top: -5rem;
+}
+.above {
+  z-index: 3;
+}
+.below {
+  z-index: 1;
+}
+.big {
+  font-size: 4rem;
+}
+.block {
+  display: block!important;
+  margin-top: -4rem;
+}
+input {
+  padding: .5rem;
+  margin: .5rem;
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  height: 10rem;
+  margin: .5rem
+}
+.twist {
+  transform: rotate(45deg);
+}
+.footer {
+  background-color: black;
+  height: 3rem;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  &__copy {
+    margin-right: 1rem;
+    margin-top: .5rem;
+  }
+}
+
+@media (max-width: 750px) {
+.desktop {
+  display: none!important;
+}
+}

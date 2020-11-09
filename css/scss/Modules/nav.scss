@@ -1,0 +1,47 @@
+.nav {
+    &__logo{
+        width: 15rem;
+        margin-bottom: -8rem;
+    }
+    &__title-box {
+        position: relative;
+
+    }
+    &__title {
+        margin-top: -7rem;
+        margin-right: 2rem;
+        font-size: 5rem;
+        z-index: 5;
+        position: absolute;
+        right: 0;
+        bottom: -3rem;
+    }
+    &__navbar {
+        height: 8rem;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 750px) {
+    .nav{
+    &__logo{
+        width: 10rem;
+        margin-bottom: -6rem;
+    }
+    &__title-box {
+        position: relative;
+
+    }
+    &__title {
+        font-size: 2rem;
+        z-index: 5;
+        position: absolute;
+        right: 0;
+        bottom: 2rem;
+    }
+    &__navbar {
+        height: 5rem;
+        align-items: flex-end;
+    }
+}
+}
