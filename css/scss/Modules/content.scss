@@ -105,6 +105,10 @@
         right: -0.1rem;
         z-index: 6;
     }
+    &__button {
+        position: relative;
+        z-index: 10000000;
+    }
 
     
 }
