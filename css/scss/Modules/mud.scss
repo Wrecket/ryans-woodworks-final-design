@@ -1,0 +1,245 @@
+.mud {
+    padding-top: 20rem;
+    &__title{
+        white-space: nowrap;
+        font-size: 5rem;
+        margin-left: -3rem;
+        margin-bottom: 5rem;
+    }
+    &__mud-flex-wrap {
+        position: relative;
+        overflow: hidden
+    }
+    &__carousel{
+        width: 70%;
+
+    }
+    &__desc-box {
+        padding: 3rem;
+        margin-left: -8rem;
+        margin-top: 4rem;
+        background-image: url("https://images.pexels.com/photos/2273486/pexels-photo-2273486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        background-attachment: fixed;
+        background-size: cover;
+        border: .5rem black solid;
+        position: relative;
+        transform: rotate(5deg);
+        width: 95%;
+    }
+    &__desc-box2 {
+        padding: 3rem;
+        margin-top: 4rem;
+        background-image: url("https://images.pexels.com/photos/2273486/pexels-photo-2273486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        background-attachment: fixed;
+        background-size: cover;
+        border: .5rem black solid;
+        position: relative;
+        width: 95%;
+    }
+    &__title-box1 {
+        position: absolute;
+        top: 12rem;
+        left: -14rem;
+        transform: rotate(-15deg);
+        z-index: 3;
+        text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+    }
+    &__title-box2 {
+        position: absolute;
+        top: 15rem;
+        left: -4rem;
+        z-index: 3;
+        text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+    }
+    &__title-box3 {
+        position: absolute;
+        top: 15rem;
+        left: 13rem;
+        transform: rotate(5deg);
+        z-index: 3;
+        text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+    }
+    &__monkey-box {
+        position: absolute;
+        width: 7%;
+        left: 52rem;
+        top: 18.5rem;
+        display: inline;
+        z-index: 5;
+    }
+    &__splat-box2 {
+        position: absolute;
+        top: 6rem;
+        left: 15rem;
+        width: 25%;
+        z-index: 2;
+    }
+    &__desc-title {
+        margin-top: -6rem;
+        font-size: 4rem;
+    }
+    &__price-list {
+        font-size: 4rem;
+        margin-top: -6rem;
+    }
+    &__img-container {
+        width: 20vw;
+    }
+    &__img-wrap {
+        justify-content: center;
+        padding: 0;
+        background-color: black;
+        border-left: black solid .25rem;
+        border-right: black solid .25rem;
+        position: relative;
+    }
+    &__img-container {
+        margin: .5rem .25rem .5rem .25rem;
+        background-color: black;
+        position: relative;
+    }
+    &__img-title {
+        position: absolute;
+        font-size: 4rem;
+        margin-top: -3.5rem;
+        left: 3rem;
+    }
+    &__img-desc-wrap {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.582);
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding: .5rem;
+    }
+    &__image-desc {
+        margin: 0;
+    }
+    &__inner-img-container {
+        border: .5rem black solid;
+        position: absolute;
+        transform: rotate(-10deg);
+        width: 60%;
+        left:-5rem;
+        bottom:-5rem;
+    }
+    &__left-col-wrap {
+        position: relative;
+        z-index: 5;
+    }
+}
+.carousel-inner {
+    position: relative;
+    z-index: 1;
+    border: black solid .5rem;
+}
+
+@media (max-width: 750px) {
+    .mud {
+        &__title{
+            font-size: 5rem;
+        }
+        &__flex-wrap {
+            display: block!important;
+            text-align: center;
+            margin-left: 2rem;
+            margin-top: -7rem;
+            
+        }
+        &__title-box1 {
+            text-align: center;
+            position: relative;
+            transform: rotate(-5deg);
+            z-index: 3;
+            padding: 0;
+            display: block;
+            top:auto;
+            left:auto;
+            bottom:auto;
+            right:auto;
+        }
+        &__title-box2 {
+            position: relative;
+            margin-top: -5rem;
+            z-index: 3;
+            top:auto;
+            left:auto;
+            bottom:auto;
+            right:auto;
+        }
+        &__title-box3 {
+            position: relative;
+            margin-top: -5rem;
+            transform: rotate(5deg);
+            z-index: 3;
+            top:auto;
+            left:auto;
+            bottom:auto;
+            right:auto;
+        }
+        &__splat-box2 {
+            width: 120%;
+            left:-2rem;
+            top: 11rem;
+            z-index: 0;
+        }
+        &__carousel {
+            width: 100%;
+            margin-top: -3rem;
+        }
+        &__desc-box {
+            padding: 3rem;
+            margin-left: .5rem;
+            margin-top: 2rem;
+            text-align: center;
+            background-image: url("https://images.pexels.com/photos/2273486/pexels-photo-2273486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+            background-attachment: fixed;
+            background-size: cover;
+            border: .5rem black solid;
+            position: relative;
+            transform: rotate(0);
+            width: 95%;
+        }
+        &__desc-box2 {
+            padding: 3rem 1rem;
+            margin-top: 4rem;
+            background-image: url("https://images.pexels.com/photos/2273486/pexels-photo-2273486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+            background-attachment: fixed;
+            background-size: cover;
+            border: .5rem black solid;
+            position: relative;
+            text-align: left;
+            width: 90%;
+        }
+        &__inner-img-container {
+            border: .5rem black solid;
+            position: absolute;
+            transform: rotate(10deg);
+            width: 60%;
+            left:10rem;
+            bottom:13rem;
+        }
+        &__price-list {
+            position: relative;
+            z-index: 5;
+        }
+        &__image-desc {
+            font-size: .5rem;
+            white-space: nowrap;
+        }
+        &__monkey-box {
+            position: absolute;
+            width: 40%;
+            left: -1rem;
+            top: 16rem;
+            display: inline;
+            z-index: 10;
+        }
+        &__desc-title {
+            font-size: 3rem!important;
+        }
+    }
+}

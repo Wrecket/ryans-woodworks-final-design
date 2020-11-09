@@ -1,7 +1,13 @@
-@import 'Modules/nav', 'Modules/quote', 'Modules/header', 'Modules/content';
+@import 'Modules/nav', 'Modules/quote', 'Modules/header', 'Modules/content', 'Modules/mud';
 .fence {
   background-image: url("https://images.pexels.com/photos/113726/pexels-photo-113726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  height: 70vh;
+  height: 50vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fence-mud {
+  background-image: url("https://images.pexels.com/photos/113726/pexels-photo-113726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: auto;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -67,9 +73,21 @@ textarea {
     margin-top: .5rem;
   }
 }
+.pad {
+  height: 5rem;
+}
+.padtop10 {
+  padding-top: 10rem;
+}
+.padbot10 {
+  padding-bottom: 10rem;
+}
 
 @media (max-width: 750px) {
 .desktop {
   display: none!important;
+}
+.fence {
+  height: 60vh;
 }
 }
