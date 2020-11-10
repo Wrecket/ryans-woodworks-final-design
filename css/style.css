@@ -586,6 +586,14 @@
   margin-top: -6rem; }
 
 @media (max-width: 750px) {
+  .built__carousel {
+    width: 100%; }
+  .built__top-wrap {
+    display: block !important; }
+  .built__desc-box {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem; }
   .built__right-box {
     padding: 1rem;
     border: black solid 1rem;
@@ -598,7 +606,25 @@
     position: absolute;
     width: 5rem;
     bottom: 5rem;
-    right: 0rem; } }
+    right: 0rem; }
+  .built__title {
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: -4rem;
+    margin-bottom: 1rem; }
+  .built__vid {
+    width: 100%; }
+  .built__vid-wrap {
+    padding: 0; }
+  .built__desc-title {
+    font-size: 3rem; }
+  .built__desc-title-box {
+    padding-bottom: 1rem !important;
+    margin-top: 3rem; }
+  .built__desc {
+    text-align: center; } }
 
 .pers__right-box {
   background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -659,7 +685,16 @@
   width: 80%;
   border: .5rem black solid; }
 
+.pers__desc-title-box {
+  padding-bottom: 3rem; }
+
 @media (max-width: 750px) {
+  .pers__top-wrap {
+    display: block !important; }
+  .pers__desc-box {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem; }
   .pers__right-box {
     padding: 1rem;
     border: black solid 1rem;
@@ -672,7 +707,25 @@
     position: absolute;
     width: 5rem;
     bottom: 5rem;
-    right: 0rem; } }
+    right: 0rem; }
+  .pers__title {
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: -4rem;
+    margin-bottom: 1rem; }
+  .pers__vid {
+    width: 100%; }
+  .pers__vid-wrap {
+    padding: 0; }
+  .pers__desc-title {
+    font-size: 3rem; }
+  .pers__desc-title-box {
+    padding-bottom: 1rem !important;
+    margin-top: 3rem; }
+  .pers__desc {
+    text-align: center; } }
 
 .fence {
   background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -803,4 +856,8 @@ button {
   .fence {
     height: 60vh; }
   .fence-mud {
-    overflow: hidden; } }
+    overflow: hidden; }
+  .fence-built {
+    padding: 15rem .5rem; }
+  .fence-pers {
+    padding: 15rem .5rem; } }

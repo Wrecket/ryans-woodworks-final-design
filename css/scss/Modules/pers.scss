@@ -58,10 +58,21 @@
         width: 80%;
         border: .5rem black solid;
     }
+    &__desc-title-box {
+        padding-bottom: 3rem;
+    }
 }
 
 @media (max-width: 750px) {
     .pers {
+        &__top-wrap {
+            display: block!important;
+        }
+        &__desc-box {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0rem;
+        }
         &__right-box {
             padding: 1rem;
             border: black solid 1rem;
@@ -77,6 +88,30 @@
             width: 5rem;
             bottom: 5rem;
             right: 0rem;
+        }
+        &__title {
+            margin-bottom: auto;
+            margin-left: auto;
+            text-align: center;
+            font-size: 4rem;
+            margin-top: -4rem;
+            margin-bottom: 1rem;
+        }
+        &__vid {
+            width: 100%;
+        }
+        &__vid-wrap {
+            padding: 0;
+        }
+        &__desc-title {
+            font-size: 3rem;
+        }
+        &__desc-title-box {
+            padding-bottom: 1rem!important;
+            margin-top: 3rem;
+        }
+        &__desc {
+            text-align: center;
         }
     }
 }
