@@ -1,0 +1,82 @@
+.pers {
+    &__right-box {
+        background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 1rem;
+        border: black solid 1rem;
+        width: 60%;
+    }
+    &__right-header {
+        margin-top: -6.5rem;
+        text-align: center;
+    }
+    &__right-img-box {
+        margin-bottom: 1rem;
+        border: solid black .5rem;
+        padding: 0;
+    }
+    &__right-logo-box {
+        position: absolute;
+        width: 8rem;
+        bottom: 5rem;
+        left: 14rem;
+    }
+    &__carousel {
+        width: 75%;
+    }
+    &__desc-box {
+        padding: 3rem;
+        margin-left: -10rem;
+        margin-right: 3rem;
+        margin-top: 4rem;
+        background-image: url("https://images.pexels.com/photos/1479710/pexels-photo-1479710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        background-attachment: fixed;
+        background-size: cover;
+        border: .5rem rgb(0, 0, 0) solid;
+        position: relative;
+        width: 95%;
+    }
+    &__title {
+        font-size: 4rem;
+        margin-left: 6rem;
+        margin-bottom: -2rem;
+        position: relative;
+        z-index: 5;
+        text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+    }
+    &__desc {
+        background-color: rgba(0, 0, 0, 0.384);
+        padding: 1rem;
+    }
+    &__desc-title {
+        font-size: 4rem;
+        margin-top: -6rem;
+        text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+    }
+    &__vid {
+        width: 80%;
+        border: .5rem black solid;
+    }
+}
+
+@media (max-width: 750px) {
+    .pers {
+        &__right-box {
+            padding: 1rem;
+            border: black solid 1rem;
+            width: 100%;
+        }
+        &__right-header {
+            margin-top: -6.5rem;
+            text-align: center;
+            font-size: 3rem !important;
+        }
+        &__right-logo-box {
+            position: absolute;
+            width: 5rem;
+            bottom: 5rem;
+            right: 0rem;
+        }
+    }
+}

@@ -1,18 +1,30 @@
-@import 'Modules/nav', 'Modules/quote', 'Modules/header', 'Modules/content', 'Modules/mud';
+@import 'Modules/nav', 'Modules/quote', 'Modules/header', 'Modules/content', 'Modules/mud', 'Modules/built', 'Modules/pers';
 .fence {
-  background-image: url("https://images.pexels.com/photos/113726/pexels-photo-113726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: 50vh;
   background-attachment: fixed;
   background-size: cover;
 }
 .fence-mud {
-  background-image: url("https://images.pexels.com/photos/1438516/pexels-photo-1438516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  // background-image: url("https://images.pexels.com/photos/1438516/pexels-photo-1438516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://images.pexels.com/photos/1534925/pexels-photo-1534925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: auto;
   background-attachment: fixed;
   background-size: cover;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  overflow: hidden;
+}
+.fence-built {
+  background-image: url("https://images.pexels.com/photos/1094767/pexels-photo-1094767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 15rem 2rem 15rem 2rem;
+}
+.fence-pers {
+  background-image: url("https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 15rem 2rem 15rem 2rem;
 }
 .bg-black {
     background-color: black;
@@ -69,7 +81,7 @@ textarea {
   background-color: black;
   height: 3rem;
   width: 100%;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: flex-end;
   &__copy {
     margin-right: 1rem;
@@ -88,6 +100,30 @@ textarea {
 button{
   z-index: 99;
 }
+.nopm {
+  padding: 0 .25rem;
+  margin: 0;
+}
+.mjlogo-wrap {
+  width: 5%;
+  margin-bottom: .4rem;
+  margin-right: .5rem;
+  margin-left: 1rem;;
+}
+.mjdesign {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.mjdesc {
+  margin: 0;
+}
+.marg {
+  margin-top: 5rem;
+}
+.emph {
+  color: orange;
+  font-size: 2rem;
+}
 
 @media (max-width: 750px) {
 .desktop {
@@ -95,5 +131,8 @@ button{
 }
 .fence {
   height: 60vh;
+}
+.fence-mud {
+  overflow: hidden;
 }
 }
