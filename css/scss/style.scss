@@ -6,10 +6,13 @@
   background-size: cover;
 }
 .fence-mud {
-  background-image: url("https://images.pexels.com/photos/5123390/pexels-photo-5123390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://images.pexels.com/photos/1438516/pexels-photo-1438516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: auto;
   background-attachment: fixed;
   background-size: cover;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  overflow: hidden;
 }
 .bg-black {
     background-color: black;

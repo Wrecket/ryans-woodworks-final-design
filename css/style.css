@@ -261,17 +261,17 @@
     padding: 3rem;
     margin-left: -8rem;
     margin-top: 4rem;
-    background-image: url("https://images.pexels.com/photos/1310755/pexels-photo-1310755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://images.pexels.com/photos/1097016/pexels-photo-1097016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-attachment: fixed;
     background-size: cover;
-    border: .5rem black solid;
+    border: 0.5rem black solid;
     position: relative;
     transform: rotate(5deg);
     width: 95%; }
   .mud__desc-box2 {
     padding: 3rem;
     margin-top: 4rem;
-    background-image: url("https://images.pexels.com/photos/1310755/pexels-photo-1310755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://images.pexels.com/photos/1097016/pexels-photo-1097016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-attachment: fixed;
     background-size: cover;
     border: .5rem black solid;
@@ -316,8 +316,6 @@
   .mud__price-list {
     font-size: 4rem;
     margin-top: -6rem; }
-  .mud__img-container {
-    width: 20vw; }
   .mud__img-wrap {
     justify-content: center;
     padding: 0;
@@ -328,7 +326,8 @@
   .mud__img-container {
     margin: .5rem .25rem .5rem .25rem;
     background-color: black;
-    position: relative; }
+    position: relative;
+    width: 30vw; }
   .mud__img-title {
     position: absolute;
     font-size: 4rem;
@@ -356,6 +355,9 @@
   .mud__left-col-wrap {
     position: relative;
     z-index: 5; }
+  .mud__desc {
+    background-color: rgba(3, 3, 3, 0.404);
+    padding: 1rem; }
 
 .carousel-inner {
   position: relative;
@@ -392,6 +394,7 @@
   .mud__title-box3 {
     position: relative;
     margin-top: -5rem;
+    margin-left: -2rem;
     transform: rotate(5deg);
     z-index: 3;
     top: auto;
@@ -399,29 +402,28 @@
     bottom: auto;
     right: auto; }
   .mud__splat-box2 {
-    width: 120%;
-    left: -2rem;
+    width: 100%;
+    left: 1rem;
     top: 11rem;
     z-index: 0; }
   .mud__carousel {
-    width: 100%;
-    margin-top: -3rem; }
+    width: 130%;
+    margin-top: -3rem;
+    margin-left: -2.5rem; }
   .mud__desc-box {
-    padding: 3rem;
-    margin-left: .5rem;
+    padding: 0.5rem;
+    margin-left: 0;
     margin-top: 2rem;
     text-align: center;
-    background-image: url("https://images.pexels.com/photos/2273486/pexels-photo-2273486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-attachment: fixed;
     background-size: cover;
     border: .5rem black solid;
     position: relative;
     transform: rotate(0);
-    width: 95%; }
+    width: 100%; }
   .mud__desc-box2 {
-    padding: 3rem 1rem;
+    padding: 3rem 0;
     margin-top: 4rem;
-    background-image: url("https://images.pexels.com/photos/2273486/pexels-photo-2273486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-attachment: fixed;
     background-size: cover;
     border: .5rem black solid;
@@ -449,7 +451,20 @@
     display: inline;
     z-index: 10; }
   .mud__desc-title {
-    font-size: 3rem !important; } }
+    font-size: 3rem !important; }
+  .mud__desc-title-box {
+    padding-bottom: 1rem !important; }
+  .mud__img-wrap {
+    display: block !important;
+    border: none;
+    background-color: rgba(255, 255, 255, 0); }
+  .mud__img-container {
+    width: 100%;
+    margin-bottom: 2rem;
+    border: .5rem solid black; }
+  .mud__img-title {
+    text-align: center;
+    position: static; } }
 
 .fence {
   background-image: url("https://images.pexels.com/photos/113726/pexels-photo-113726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -458,10 +473,13 @@
   background-size: cover; }
 
 .fence-mud {
-  background-image: url("https://images.pexels.com/photos/5123390/pexels-photo-5123390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://images.pexels.com/photos/1438516/pexels-photo-1438516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: auto;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  overflow: hidden; }
 
 .bg-black {
   background-color: black; }
