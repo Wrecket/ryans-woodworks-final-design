@@ -419,8 +419,6 @@
   .mud__price-splat-wrap {
     bottom: -2rem;
     right: -2rem; }
-  .mud__flex-wrap {
-    overflow: hidden; }
   .mud__title {
     font-size: 5rem; }
   .mud__flex-wrap {
@@ -861,8 +859,6 @@ button {
     display: none !important; }
   .fence {
     height: 60vh; }
-  .fence-mud {
-    overflow: hidden; }
   .fence-built {
     padding: 15rem .5rem; }
   .fence-pers {
