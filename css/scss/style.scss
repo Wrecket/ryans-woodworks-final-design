@@ -124,6 +124,12 @@ button{
   color: orange;
   font-size: 2rem;
 }
+.bordery {
+  border: .5rem solid black;
+}
+.txt-border {
+  text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+}
 
 @media (max-width: 750px) {
 .desktop {
