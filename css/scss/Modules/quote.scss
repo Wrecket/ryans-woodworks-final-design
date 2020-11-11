@@ -42,5 +42,18 @@
 			width: 100%;
 			padding-left: 0;
 		}
+		&__social-wrap {
+			width: 5rem;
+		}
+		&__flexer {
+			display: block !important;
+		}
+		&__inner-flex {
+			justify-content: flex-end;
+		}
+		&__contact-us-title {
+			font-size: 3rem;
+			white-space: nowrap;
+		}
 	}
 }
