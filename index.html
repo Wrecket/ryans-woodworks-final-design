@@ -7,6 +7,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Patua+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <title>Add Map</title>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrYD2zJsrz3fNwTnx3TYamNH5dmkIa6f4&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <style type="text/css">
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 300px;
+        /* The height is 400 pixels */
+        width: 500px;
+        /* The width is the width of the web page */
+      }
+    </style>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: 51.121749, lng: -0.865566 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
     <title>Document</title>
 </head>
 <body>
@@ -75,7 +106,13 @@
                 </div>
             </div>
             </div>
-        <div class="header__right container"></div>
+        <div class="header__right container">
+            <div id="map"></div>
+            <div class="map-desc-wrap container">
+                <h1 class="map-desc-title white font txt-border">WHERE ARE WE?</h1>
+                <p class="map-desc white font">Based in the heart of Hampshire, Ryan's Woodworks delivers on a ten mile radius</p>
+            </div>
+        </div>
     </div>
     <div class="bg-black bar">
     <div class="container-fluid content__smudge">

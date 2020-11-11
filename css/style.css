@@ -92,7 +92,7 @@ nav {
 .header__title {
   font-size: 3rem;
   margin-bottom: -2rem;
-  text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
+  text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
 
 @media (max-width: 750px) {
   .header__wrap {
@@ -108,7 +108,9 @@ nav {
     font-size: 2.5rem;
     margin-bottom: -2rem; }
   .header__left {
-    padding-bottom: 30rem; } }
+    padding-bottom: 3rem; }
+  .header__right {
+    padding-bottom: 20rem; } }
 
 .content__right-box {
   background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -935,7 +937,40 @@ a:hover {
 .over {
   overflow: hidden; }
 
+#map {
+  margin-left: 25rem;
+  margin-top: -5rem;
+  border: .5rem solid black; }
+
+.map-desc-wrap {
+  background: rgba(128, 128, 128, 0.445);
+  padding: 1rem;
+  width: 25%;
+  margin-top: -9rem;
+  margin-left: 14rem;
+  padding-right: 3rem; }
+
+.map-desc-title {
+  margin-top: -5rem;
+  margin-left: -3rem; }
+
 @media (max-width: 750px) {
+  #map {
+    margin-left: 0;
+    margin-top: 0;
+    border: .5rem solid black;
+    width: 100%; }
+  .map-desc-wrap {
+    background: rgba(128, 128, 128, 0.445);
+    padding: 1rem;
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    padding-right: 0;
+    padding-bottom: 1rem; }
+  .map-desc-title {
+    margin-top: auto;
+    margin-left: auto; }
   .desktop {
     display: none !important; }
   .fence {
