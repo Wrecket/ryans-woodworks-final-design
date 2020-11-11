@@ -136,8 +136,8 @@ nav {
 .content__right-logo-box {
   position: absolute;
   width: 8rem;
-  bottom: 5rem;
-  left: 14rem; }
+  bottom: 1rem;
+  left: 10rem; }
 
 .content__left-header-box {
   margin-top: -3rem;
@@ -233,8 +233,8 @@ nav {
   .content__right-logo-box {
     position: absolute;
     width: 5rem;
-    bottom: 5rem;
-    right: 0rem; }
+    bottom: 4rem;
+    right: -7rem; }
   .content__smudge {
     height: 5rem; }
   .content__splat-box {
