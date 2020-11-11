@@ -11,6 +11,24 @@
 		width: 75%;
 		text-align: center;
 	}
+	&__wrap2 {
+		background-color: rgba(0, 0, 0, 0.692);
+		padding: 1rem;
+	}
+	&__contact-us-title {
+		font-size: 4rem;
+		margin-top: -3rem;
+	}
+	&__flexer {
+		justify-content: space-between;
+	}
+	&__telephone {
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+	&__social-wrap {
+		margin: 0 0 .5rem 1rem;
+	}
 }
 @media (max-width: 1080px) {
 }

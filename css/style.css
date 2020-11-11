@@ -72,6 +72,24 @@ nav {
   width: 75%;
   text-align: center; }
 
+.quote__wrap2 {
+  background-color: rgba(0, 0, 0, 0.692);
+  padding: 1rem; }
+
+.quote__contact-us-title {
+  font-size: 4rem;
+  margin-top: -3rem; }
+
+.quote__flexer {
+  justify-content: space-between; }
+
+.quote__telephone {
+  justify-content: flex-end;
+  align-items: flex-end; }
+
+.quote__social-wrap {
+  margin: 0 0 .5rem 1rem; }
+
 @media (max-width: 850px) {
   .quote__wrap {
     width: 100%;
@@ -785,6 +803,13 @@ nav {
   background-attachment: fixed;
   background-size: cover; }
 
+.fence-bottom {
+  background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 65rem;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 20rem; }
+
 .fence-mud {
   background-image: url("https://images.pexels.com/photos/1534925/pexels-photo-1534925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: auto;
@@ -850,6 +875,9 @@ nav {
 .block {
   display: block !important;
   margin-top: -4rem; }
+
+* {
+  scroll-behavior: smooth; }
 
 input {
   padding: .5rem;

@@ -12,6 +12,13 @@
 	background-attachment: fixed;
 	background-size: cover;
 }
+.fence-bottom {
+	background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	height: 65rem;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 20rem;
+}
 .fence-mud {
 	// background-image: url("https://images.pexels.com/photos/1438516/pexels-photo-1438516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	background-image: url("https://images.pexels.com/photos/1534925/pexels-photo-1534925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -78,6 +85,9 @@
 .block {
 	display: block !important;
 	margin-top: -4rem;
+}
+* {
+	scroll-behavior: smooth;
 }
 input {
 	padding: .5rem;
