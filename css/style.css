@@ -30,7 +30,7 @@
 nav {
   background-color: black; }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .nav__logo {
     width: 10rem;
     margin-bottom: -6rem; }
@@ -72,7 +72,7 @@ nav {
   width: 75%;
   text-align: center; }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .quote__wrap {
     width: 100%;
     padding-left: 0; } }
@@ -94,7 +94,7 @@ nav {
   margin-bottom: -2rem;
   text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .header__wrap {
     display: block !important;
     padding: 8rem 0 0 0;
@@ -219,7 +219,7 @@ nav {
   position: relative;
   z-index: 99; }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .content__right-box {
     padding: 1rem;
     border: black solid 1rem;
@@ -438,7 +438,7 @@ nav {
   .mud__gal-loc {
     height: 10rem; }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .mud__price {
     right: .5rem;
     bottom: -.5rem;
@@ -610,7 +610,7 @@ nav {
   font-size: 4rem;
   margin-top: -6rem; }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .built__carousel {
     width: 100%; }
   .built__top-wrap {
@@ -713,7 +713,7 @@ nav {
 .pers__desc-title-box {
   padding-bottom: 3rem; }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .pers__top-wrap {
     display: block !important; }
   .pers__desc-box {
@@ -774,7 +774,7 @@ nav {
   align-items: center;
   top: 50%; }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .gal__standard-wrap {
     height: 100%;
     width: 100%; } }
@@ -935,7 +935,7 @@ a:hover {
 .over {
   overflow: hidden; }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .desktop {
     display: none !important; }
   .fence {

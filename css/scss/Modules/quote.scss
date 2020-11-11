@@ -1,26 +1,28 @@
 .quote {
-    &__toggler {
-        width: 100%;
-    }
-    &__body {
-        width: 100%;
-        text-align: center;
-        
-    }
-    &__wrap {
-        background-color: white;
-        width: 75%;
-        text-align: center;
-    }
+	&__toggler {
+		width: 100%;
+	}
+	&__body {
+		width: 100%;
+		text-align: center;
+	}
+	&__wrap {
+		background-color: white;
+		width: 75%;
+		text-align: center;
+	}
 }
-@media (max-width: 1080px) {}
-@media (max-width: 768px) {}
-@media (max-width: 900px) {}
-@media (max-width: 750px) {
-    .quote {
-            &__wrap {
-            width: 100%;
-            padding-left: 0;
-        }
-    }
+@media (max-width: 1080px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 900px) {
+}
+@media (max-width: 850px) {
+	.quote {
+		&__wrap {
+			width: 100%;
+			padding-left: 0;
+		}
+	}
 }
