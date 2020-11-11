@@ -1,0 +1,24 @@
+.gal {
+	&__standard-wrap {
+		height: 95%;
+		width: 70%;
+		border: black solid .5rem;
+		padding: 0;
+		position: relative;
+		overflow: hidden;
+	}
+	&__desc {
+		text-align: center;
+		margin: 0;
+	}
+	&__bar {
+		height: 3rem;
+		background-color: black;
+		width: 100%;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		top: 50%;
+	}
+}

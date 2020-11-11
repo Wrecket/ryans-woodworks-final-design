@@ -1,163 +1,197 @@
-@import 'Modules/nav', 'Modules/quote', 'Modules/header', 'Modules/content', 'Modules/mud', 'Modules/built', 'Modules/pers';
+@import 'Modules/nav',
+	'Modules/quote',
+	'Modules/header',
+	'Modules/content',
+	'Modules/mud',
+	'Modules/built',
+	'Modules/pers',
+	'Modules/gal';
 .fence {
-  background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  height: 50vh;
-  background-attachment: fixed;
-  background-size: cover;
+	background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	height: 35rem;
+	background-attachment: fixed;
+	background-size: cover;
 }
 .fence-mud {
-  // background-image: url("https://images.pexels.com/photos/1438516/pexels-photo-1438516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  background-image: url("https://images.pexels.com/photos/1534925/pexels-photo-1534925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  height: auto;
-  background-attachment: fixed;
-  background-size: cover;
+	// background-image: url("https://images.pexels.com/photos/1438516/pexels-photo-1438516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	background-image: url("https://images.pexels.com/photos/1534925/pexels-photo-1534925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	height: auto;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
 }
 .fence-built {
-  background-image: url("https://images.pexels.com/photos/1094767/pexels-photo-1094767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  height: auto;
-  background-attachment: fixed;
-  background-size: cover;
-  padding: 15rem 2rem 15rem 2rem;
+	background-image: url("https://images.pexels.com/photos/1094767/pexels-photo-1094767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	height: auto;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 15rem 2rem 15rem 2rem;
 }
 .fence-pers {
-  background-image: url("https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  height: auto;
-  background-attachment: fixed;
-  background-size: cover;
-  padding: 15rem 2rem 15rem 2rem;
+	background-image: url("https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	height: auto;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 15rem 2rem 15rem 2rem;
+}
+.fence-gal {
+	background-image: url("https://images.pexels.com/photos/113726/pexels-photo-113726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	height: auto;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 15rem 2rem 15rem 2rem;
 }
 .bg-black {
-    background-color: black;
+	background-color: black;
 }
 .white {
-    color: white;
+	color: white;
 }
 .font {
-    font-family: 'Patua One', cursive;
-  }
+	font-family: 'Patua One', cursive;
+}
 .font2 {
-    font-family: 'Grandstander', cursive;
+	font-family: 'Grandstander', cursive;
 }
 .bold {
-  font-weight: bold;
+	font-weight: bold;
 }
 .bar {
-  height: 5rem;
-  width: 100%;
-} 
+	height: 5rem;
+	width: 100%;
+}
 .middle {
-  margin-top: -5rem;
+	margin-top: -5rem;
 }
 .bottom {
-  margin-top: -5rem;
+	margin-top: -5rem;
 }
 .above {
-  z-index: 3;
+	z-index: 3;
 }
 .below {
-  z-index: 1;
+	z-index: 1;
 }
 .big {
-  font-size: 4rem;
+	font-size: 4rem;
 }
 .block {
-  display: block!important;
-  margin-top: -4rem;
+	display: block !important;
+	margin-top: -4rem;
 }
 input {
-  padding: .5rem;
-  margin: .5rem;
-  width: 100%;
+	padding: .5rem;
+	margin: .5rem;
+	width: 100%;
 }
 textarea {
-  width: 100%;
-  height: 10rem;
-  margin: .5rem
+	width: 100%;
+	height: 10rem;
+	margin: .5rem;
 }
 .twist {
-  transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .footer {
-  background-color: black;
-  height: 3rem;
-  width: 100%;
-  justify-content: space-between;
-  align-items: flex-end;
-  &__copy {
-    margin-right: 1rem;
-    margin-top: .5rem;
-  }
+	background-color: black;
+	height: 3rem;
+	width: 100%;
+	justify-content: space-between;
+	align-items: flex-end;
+	&__copy {
+		margin-right: 1rem;
+		margin-top: .5rem;
+	}
 }
 .pad {
-  height: 5rem;
+	height: 5rem;
 }
 .padtop10 {
-  padding-top: 10rem;
+	padding-top: 10rem;
 }
 .padbot10 {
-  padding-bottom: 10rem;
+	padding-bottom: 10rem;
 }
-button{
-  z-index: 99;
+button {
+	z-index: 1;
 }
 .nopm {
-  padding: 0 .25rem;
-  margin: 0;
+	padding: 0 .25rem;
+	margin: 0;
 }
 .mjlogo-wrap {
-  width: 5%;
-  margin-bottom: .4rem;
-  margin-right: .5rem;
-  margin-left: 1rem;;
+	width: 5%;
+	margin-bottom: .4rem;
+	margin-right: .5rem;
+	margin-left: 1rem;
 }
 .mjdesign {
-  align-items: flex-end;
-  justify-content: flex-start;
+	align-items: flex-end;
+	justify-content: flex-start;
 }
 .mjdesc {
-  margin: 0;
+	margin: 0;
 }
 .marg {
-  margin-top: 5rem;
+	margin-top: 5rem;
 }
 .emph {
-  color: orange;
-  font-size: 2rem;
+	color: orange;
+	font-size: 2rem;
 }
 .bordery {
-  border: .5rem solid black;
+	border: .5rem solid black;
 }
 .txt-border {
-  text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+	text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+		2px -2px 0 black, -2px 2px 0 black;
+}
+.footer__copy {
+	margin: 0 1rem;
+}
+.mjlogolink {
+	color: white;
+}
+a:hover {
+	color: orange;
+	text-decoration: none;
+}
+.scale:hover {
+	transform: scale(1.2);
+}
+* {
+	transition: all .5s;
+}
+.over {
+	overflow: hidden;
 }
 
 @media (max-width: 750px) {
-.desktop {
-  display: none!important;
-}
-.fence {
-  height: 60vh;
-}
-.fence-built {
-  padding: 15rem .5rem;
-}
-.fence-pers {
-  padding: 15rem .5rem;
-}
-.mjdesc {
-  font-size: .75em;
-}
-.mjlogo-wrap {
-  margin-bottom: .5rem;
-  width: 15%;
-
-}
-.footer__copy-box {
-  margin-bottom: 0;
-}
-.footer__copy {
-  margin: 0;
-  font-size: 1rem;
-  white-space: nowrap;
-}
+	.desktop {
+		display: none !important;
+	}
+	.fence {
+		height: 60vh;
+	}
+	.fence-built {
+		padding: 15rem .5rem;
+	}
+	.fence-pers {
+		padding: 15rem .5rem;
+	}
+	.mjdesc {
+		font-size: .75em;
+	}
+	.mjlogo-wrap {
+		margin-bottom: .5rem;
+		width: 15%;
+	}
+	.footer__copy-box {
+		margin-bottom: 0;
+	}
+	.footer__copy {
+		margin: 0;
+		font-size: 1rem;
+		white-space: nowrap;
+	}
 }

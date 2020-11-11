@@ -1,183 +1,185 @@
 .content {
-    &__right-box {
-        background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-        background-attachment: fixed;
-        background-size: cover;
-        padding: 1rem;
-        border: black solid 1rem;
-        margin-top: -13rem;
-        width: 60%;
-    }
-    &__middle-right-box {
-        background-image: url("https://images.pexels.com/photos/168452/pexels-photo-168452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-        background-attachment: fixed;
-        background-size: cover;
-        padding: 1rem;
-        border: black solid 1rem;
-        margin-top: -13rem;
-        width: 60%;
-    }
-    &__right-img-box {
-        margin-bottom: 1rem;
-        border: solid black .5rem;
-        padding: 0;
-    }
-    &__right-logo-box {
-        position: absolute;
-        width: 8rem;
-        bottom: 5rem;
-        left: 14rem;
-    }
-    &__left-header-box {
-        margin-top: -3rem;
-        margin-left: 8rem;
-        display: inline;
-    }
-    &__header-box {
-        margin-top: -5rem;
-        padding-left: 10rem;
-    }
-    &__left-header {
-        font-size: 4rem;
-        margin-top: 1rem;
-        z-index: 5;
-        position: relative;
-        display: inline;
-        width: auto;
-    }
-    &__smudge {
-        height: 5rem;
-    }
-    &__splat-box {
-        width: 40%;
-        margin-top: -14rem;
-        margin-left: 5rem;
-        z-index: 0;
-        position: relative;
-    }
-    &__mud-1 {
-        transform: rotate(-15deg);
-        z-index: 5;
-        position: absolute;
-        top: -1rem;
-        left: -4rem;
-        text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
-    }
-    &__mud-2 {
-        position: absolute;
-        z-index: 5;
-        top: 0;
-        left: 8rem;
-        text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
-    }
-    &__mud-3 {
-        transform: rotate(3deg);
-        z-index: 5;
-        position: absolute;
-        top: 0;
-        left: 16rem;
-        text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
-    }
-    &__mud-wrap{
-        position: relative;
-    }
-    &__splat-box2 {
-        position: absolute;
-        top: -10rem;
-        left: 3rem;
-        width: 70%;
-        z-index: 0;
-    }
-    &__right-header {
-        margin-top: -6.5rem;
-        text-align: center;
-    }
-    &__bottom-right-img-box {
-        border: 1rem solid black;
-        padding: 0;
-        background-color: black;   
-    }
-    &__monkey-box {
-        position: absolute;
-        width: 25%;
-        top: -4.3rem;
-        right: -0.1rem;
-        z-index: 6;
-    }
-    &__button {
-        position: relative;
-        z-index: 10000000;
-    }
-
-    
+	&__right-box {
+		background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		background-attachment: fixed;
+		background-size: cover;
+		padding: 1rem;
+		border: black solid 1rem;
+		margin-top: -13rem;
+		width: 60%;
+	}
+	&__middle-right-box {
+		background-image: url("https://images.pexels.com/photos/168452/pexels-photo-168452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		background-attachment: fixed;
+		background-size: cover;
+		padding: 1rem;
+		border: black solid 1rem;
+		margin-top: -13rem;
+		width: 60%;
+	}
+	&__right-img-box {
+		margin-bottom: 1rem;
+		border: solid black .5rem;
+		padding: 0;
+	}
+	&__right-logo-box {
+		position: absolute;
+		width: 8rem;
+		bottom: 5rem;
+		left: 14rem;
+	}
+	&__left-header-box {
+		margin-top: -3rem;
+		margin-left: 8rem;
+		display: inline;
+	}
+	&__header-box {
+		margin-top: -5rem;
+		padding-left: 10rem;
+	}
+	&__left-header {
+		font-size: 4rem;
+		margin-top: 1rem;
+		z-index: 5;
+		position: relative;
+		display: inline;
+		width: auto;
+	}
+	&__smudge {
+		height: 5rem;
+	}
+	&__splat-box {
+		width: 40%;
+		margin-top: -14rem;
+		margin-left: 5rem;
+		z-index: 0;
+		position: relative;
+	}
+	&__mud-1 {
+		transform: rotate(-15deg);
+		z-index: 5;
+		position: absolute;
+		top: -1rem;
+		left: -4rem;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+			2px -2px 0 black, -2px 2px 0 black;
+	}
+	&__mud-2 {
+		position: absolute;
+		z-index: 5;
+		top: 0;
+		left: 8rem;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+			2px -2px 0 black, -2px 2px 0 black;
+	}
+	&__mud-3 {
+		transform: rotate(3deg);
+		z-index: 5;
+		position: absolute;
+		top: 0;
+		left: 16rem;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+			2px -2px 0 black, -2px 2px 0 black;
+	}
+	&__mud-wrap {
+		position: relative;
+	}
+	&__splat-box2 {
+		position: absolute;
+		top: -10rem;
+		left: 3rem;
+		width: 70%;
+		z-index: 0;
+	}
+	&__right-header {
+		margin-top: -6.5rem;
+		text-align: center;
+	}
+	&__bottom-right-img-box {
+		border: 1rem solid black;
+		padding: 0;
+		background-color: black;
+	}
+	&__monkey-box {
+		position: absolute;
+		width: 25%;
+		top: -4.3rem;
+		right: -0.1rem;
+		z-index: 6;
+	}
+	&__button {
+		position: relative;
+		z-index: 99;
+	}
 }
 
 @media (max-width: 750px) {
-    .content {
-        &__right-box {
-            padding: 1rem;
-            border: black solid 1rem;
-            margin-top: -11rem;
-            width: 100%;
-        }
-        &__middle-right-box {
-            padding: 1rem;
-            border: black solid 1rem;
-            margin-top: -10rem;
-            width: 100%;
-        }
-        &__right-logo-box {
-            position: absolute;
-            width: 5rem;
-            bottom: 5rem;
-            right: 0rem;
-        }
-        &__smudge {
-            height: 5rem;
-        }
-        &__splat-box {
-            display: none
-        }
-        &__mud-1 {
-            font-size: 2rem;
-            z-index: 5;
-            top: 1rem;
-            left: 0;
-            text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
-        }
-        &__mud-2 {
-            z-index: 5;
-            top: 3rem;
-            left: 3rem;
-            text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
-        }
-        &__mud-3 {
-            z-index: 5;
-            top: 5rem;
-            left: 4rem;
-            text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
-        }
-        &__mud-wrap{
-            position: relative;
-        }
-        &__splat-box2 {
-            position: absolute;
-            top: -8rem;
-            left: 0;
-            width: 100%;
-            z-index: 0;
-        }
-        &__right-header {
-            margin-top: -6.5rem;
-            text-align: center;
-            font-size: 3rem !important;
-        }
-        &__bottom-right-img-box {
-            border: 1rem solid black;
-            padding: 0;
-            background-color: black;   
-        }
-    
-        
-    }
+	.content {
+		&__right-box {
+			padding: 1rem;
+			border: black solid 1rem;
+			margin-top: -11rem;
+			width: 100%;
+		}
+		&__middle-right-box {
+			padding: 1rem;
+			border: black solid 1rem;
+			margin-top: -10rem;
+			width: 100%;
+		}
+		&__right-logo-box {
+			position: absolute;
+			width: 5rem;
+			bottom: 5rem;
+			right: 0rem;
+		}
+		&__smudge {
+			height: 5rem;
+		}
+		&__splat-box {
+			display: none;
+		}
+		&__mud-1 {
+			font-size: 2rem;
+			z-index: 5;
+			top: 1rem;
+			left: 0;
+			text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+				2px -2px 0 black, -2px 2px 0 black;
+		}
+		&__mud-2 {
+			z-index: 5;
+			top: 3rem;
+			left: 3rem;
+			text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+				2px -2px 0 black, -2px 2px 0 black;
+		}
+		&__mud-3 {
+			z-index: 5;
+			top: 5rem;
+			left: 4rem;
+			text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+				2px -2px 0 black, -2px 2px 0 black;
+		}
+		&__mud-wrap {
+			position: relative;
+		}
+		&__splat-box2 {
+			position: absolute;
+			top: -8rem;
+			left: 0;
+			width: 100%;
+			z-index: 0;
+		}
+		&__right-header {
+			margin-top: -6.5rem;
+			text-align: center;
+			font-size: 3rem !important;
+		}
+		&__bottom-right-img-box {
+			border: 1rem solid black;
+			padding: 0;
+			background-color: black;
+		}
+	}
 }
