@@ -771,6 +771,11 @@ nav {
   align-items: center;
   top: 50%; }
 
+@media (max-width: 750px) {
+  .gal__standard-wrap {
+    height: 100%;
+    width: 100%; } }
+
 .fence {
   background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: 35rem;
@@ -946,4 +951,7 @@ a:hover {
   .footer__copy {
     margin: 0;
     font-size: 1rem;
-    white-space: nowrap; } }
+    white-space: nowrap; }
+  .fence-gal {
+    display: block !important;
+    padding-top: 8rem; } }

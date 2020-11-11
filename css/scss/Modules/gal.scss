@@ -22,3 +22,12 @@
 		top: 50%;
 	}
 }
+
+@media (max-width: 750px) {
+	.gal {
+		&__standard-wrap {
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
