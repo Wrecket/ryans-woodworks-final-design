@@ -60,8 +60,13 @@ nav {
 		width: 100%;
 		margin: 1rem 0;
 		padding: 1rem;
+		font-size: 1.5rem;
+	}
+	.nav-item:hover {
+		background: rgb(248, 201, 113);
 	}
 	.navbar-nav {
 		padding: 6.5rem 2rem 2rem 2rem;
+		text-align: center;
 	}
 }

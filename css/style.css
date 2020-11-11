@@ -49,9 +49,13 @@ nav {
     background: orange;
     width: 100%;
     margin: 1rem 0;
-    padding: 1rem; }
+    padding: 1rem;
+    font-size: 1.5rem; }
+  .nav-item:hover {
+    background: #f8c971; }
   .navbar-nav {
-    padding: 6.5rem 2rem 2rem 2rem; } }
+    padding: 6.5rem 2rem 2rem 2rem;
+    text-align: center; } }
 
 .quote__toggler {
   width: 100%; }
