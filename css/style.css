@@ -267,7 +267,7 @@ nav {
 .content__monkey-box {
   position: absolute;
   width: 30%;
-  top: 0.6rem;
+  top: -5.4rem;
   right: 1rem;
   z-index: 6; }
 
@@ -714,7 +714,18 @@ nav {
   font-size: 4rem;
   margin-top: -6rem; }
 
+.saw-box {
+  position: absolute;
+  right: -10.8rem;
+  bottom: -16rem;
+  width: 22.5rem; }
+
 @media (max-width: 850px) {
+  .saw-box {
+    position: absolute;
+    right: 10rem;
+    bottom: -9rem;
+    width: 13.6rem; }
   .built__carousel {
     width: 100%; }
   .built__top-wrap {
@@ -890,7 +901,7 @@ nav {
 
 .fence-bottom {
   background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  height: 65rem;
+  height: 68rem;
   background-attachment: fixed;
   background-size: cover;
   padding-top: 17rem; }
