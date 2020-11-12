@@ -4,7 +4,7 @@
 	}
 	&__logo {
 		width: 10rem;
-		margin-bottom: -4rem;
+		margin-bottom: -7rem;
 		margin-left: -.5rem;
 		z-index: 999;
 		position: relative;
@@ -24,9 +24,12 @@
 			2px -2px 0 black, -2px 2px 0 black;
 	}
 	&__navbar {
-		height: 8rem;
+		height: 4rem;
 		align-items: flex-end;
 	}
+}
+.widg-title {
+	margin-bottom: -2rem;
 }
 .navbar-nav {
 	align-items: flex-end;
@@ -42,9 +45,9 @@ nav {
 	margin-top: 2rem;
 }
 @media (max-width: 1185px) {
-	.nav__title {
-		display: none
-	}
+	// .nav__title {
+	// 	display: none
+	// }
 }
 @media (max-width: 1500px) {
 	.nav__title {
@@ -52,22 +55,37 @@ nav {
 	}
 }
 @media (max-width: 1024px) {
-	.nav__title {
-		display: none;
-	}
+	// .nav__title {
+	// 	display: none;
+	// }
 	.trustpilot-widget {
 		margin-bottom: 5rem;
 		margin-top: 1rem;
 	}
-	.desktop {
-		display: none;
-	}
+	// .desktop {
+	// 	display: none;
+	// }
 	
 }
 @media (max-width: 850px) {
 	.trustpilot-widget {
 		margin-bottom: 5rem;
 		margin-top: 1rem;
+	}
+	.navbar-dark .navbar-toggler-icon {
+		position: absolute;
+		top:0;
+		right: 0;
+
+	}
+	.navbar-dark .navbar-toggler {
+		border-color: rgba(0, 0, 0, 0)!important;
+	}
+	.navbar-dark .navbar-toggler:focus {
+		outline: rgba(0, 0, 0, 0)!important;
+	}
+	.navbar-nav {
+		margin-top: -4rem;
 	}
 	.nav {
 		&__logo {
@@ -85,9 +103,10 @@ nav {
 			bottom: 2rem;
 		}
 		&__navbar {
-			height: 5rem;
+			height: 3rem;
 			align-items: flex-end;
 		}
+		
 	}
 	.nav-item {
 		background: orange;

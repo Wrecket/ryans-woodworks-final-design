@@ -3,7 +3,7 @@
 
 .nav__logo {
   width: 10rem;
-  margin-bottom: -4rem;
+  margin-bottom: -7rem;
   margin-left: -.5rem;
   z-index: 999;
   position: relative; }
@@ -22,8 +22,11 @@
   text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
 
 .nav__navbar {
-  height: 8rem;
+  height: 4rem;
   align-items: flex-end; }
+
+.widg-title {
+  margin-bottom: -2rem; }
 
 .navbar-nav {
   align-items: flex-end;
@@ -38,27 +41,29 @@ nav {
   margin-bottom: -8rem;
   margin-top: 2rem; }
 
-@media (max-width: 1185px) {
-  .nav__title {
-    display: none; } }
-
 @media (max-width: 1500px) {
   .nav__title {
     font-size: 3rem; } }
 
 @media (max-width: 1024px) {
-  .nav__title {
-    display: none; }
   .trustpilot-widget {
     margin-bottom: 5rem;
-    margin-top: 1rem; }
-  .desktop {
-    display: none; } }
+    margin-top: 1rem; } }
 
 @media (max-width: 850px) {
   .trustpilot-widget {
     margin-bottom: 5rem;
     margin-top: 1rem; }
+  .navbar-dark .navbar-toggler-icon {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .navbar-dark .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0) !important; }
+  .navbar-dark .navbar-toggler:focus {
+    outline: rgba(0, 0, 0, 0) !important; }
+  .navbar-nav {
+    margin-top: -4rem; }
   .nav__logo {
     width: 7rem;
     margin-bottom: -3rem; }
@@ -71,7 +76,7 @@ nav {
     right: 0;
     bottom: 2rem; }
   .nav__navbar {
-    height: 5rem;
+    height: 3rem;
     align-items: flex-end; }
   .nav-item {
     background: orange;
@@ -139,7 +144,7 @@ nav {
   background-attachment: fixed;
   background-size: cover;
   padding: 10rem 5rem;
-  margin-top: 8rem; }
+  margin-top: 4rem; }
 
 .header__text-box {
   background-color: rgba(128, 128, 128, 0.466);
@@ -155,7 +160,7 @@ nav {
   .header__wrap {
     display: block !important;
     padding: 8rem 0 0 0;
-    margin-top: 4rem;
+    margin-top: 2rem;
     text-align: center; }
   .header__text-box {
     background-color: rgba(128, 128, 128, 0.466);
@@ -933,7 +938,7 @@ nav {
   height: auto;
   background-attachment: fixed;
   background-size: cover;
-  padding: 15rem 2rem 15rem 2rem; }
+  padding: 15rem 2rem 18rem 2rem; }
 
 .bg-black {
   background-color: black; }
@@ -1060,9 +1065,11 @@ a:hover {
 .over {
   overflow: hidden; }
 
-@media (max-width: 850px) {
+@media (max-width: 700px) {
   .desktop {
-    display: none !important; }
+    display: none !important; } }
+
+@media (max-width: 850px) {
   .fence {
     height: 30rem; }
   .fence-built {

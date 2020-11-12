@@ -47,7 +47,7 @@
 	height: auto;
 	background-attachment: fixed;
 	background-size: cover;
-	padding: 15rem 2rem 15rem 2rem;
+	padding: 15rem 2rem 18rem 2rem;
 }
 .bg-black {
 	background-color: black;
@@ -176,11 +176,12 @@ a:hover {
 .over {
 	overflow: hidden;
 }
-
-@media (max-width: 850px) {
+@media (max-width: 700px) {
 	.desktop {
 		display: none !important;
 	}
+}
+@media (max-width: 850px) {
 	.fence {
 		height: 30rem;
 	}
