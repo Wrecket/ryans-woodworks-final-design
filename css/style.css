@@ -106,6 +106,8 @@ nav {
   .quote__wrap {
     width: 100%;
     padding-left: 0; }
+  .quote__wrap2 {
+    padding-right: 2rem; }
   .quote__social-wrap {
     width: 5rem; }
   .quote__flexer {
@@ -876,7 +878,7 @@ nav {
   height: 65rem;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 20rem; }
+  padding-top: 17rem; }
 
 .fence-mud {
   background-image: url("https://images.pexels.com/photos/1534925/pexels-photo-1534925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
