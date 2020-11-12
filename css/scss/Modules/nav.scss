@@ -3,8 +3,9 @@
 		white-space: nowrap;
 	}
 	&__logo {
-		width: 15rem;
-		margin-bottom: -8rem;
+		width: 10rem;
+		margin-bottom: -4rem;
+		margin-left: -.5rem;
 		z-index: 999;
 		position: relative;
 	}
@@ -14,7 +15,7 @@
 	&__title {
 		margin-top: -7rem;
 		margin-right: 2rem;
-		font-size: 5rem;
+		font-size: 7rem;
 		z-index: 5;
 		position: absolute;
 		right: 0;

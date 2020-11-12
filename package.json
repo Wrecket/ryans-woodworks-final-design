@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Wrecket/ryanswoodworksfinal#readme",
   "dependencies": {
+    "node-geocoder": "^3.27.0",
     "node-sass": "^5.0.0"
   }
 }
