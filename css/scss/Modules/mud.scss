@@ -14,7 +14,6 @@
 	}
 	&__desc-box {
 		padding: 3rem;
-		margin-left: -8rem;
 		margin-top: 4rem;
 		background-image: url("https://images.pexels.com/photos/5209216/pexels-photo-5209216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 		background-attachment: fixed;
@@ -68,6 +67,7 @@
 		left: 13rem;
 		transform: rotate(5deg);
 		z-index: 3;
+		display: inline-block!important;
 		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
 			2px -2px 0 black, -2px 2px 0 black;
 	}
@@ -202,7 +202,60 @@
 		height: 10rem;
 	}
 }
-
+@media (max-width: 1366px) {
+	.mud {
+		&__monkey-box {
+			width: 15%;
+			left: 3rem;
+			top: 1rem;
+		}
+	}
+}
+@media (max-width: 1024px) {
+	.mud {
+		&__title-box1 {
+			position: absolute;
+			top: 12rem;
+			left: -10rem;
+			transform: rotate(-15deg);
+			z-index: 3;
+			text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+				2px -2px 0 black, -2px 2px 0 black;
+		}
+		&__title-box2 {
+			position: absolute;
+			top: 15rem;
+			left: -5rem;
+			z-index: 3;
+			text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+				2px -2px 0 black, -2px 2px 0 black;
+		}
+		&__title-box3 {
+			position: absolute;
+			top: 15rem;
+			left: 11rem;
+			transform: rotate(5deg);
+			z-index: 3;
+			text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+				2px -2px 0 black, -2px 2px 0 black;
+		}
+		&__monkey-box {
+			position: absolute;
+			width: 20%;
+			left:23rem;
+			top: 1rem;
+			display: inline;
+			z-index: 5;
+		}
+		&__splat-box2 {
+			position: absolute;
+			top: 10rem;
+			left: 15rem;
+			width: 40%;
+			z-index: 2;
+		}
+	}
+}
 @media (max-width: 850px) {
 	.mud {
 		&__price {
@@ -222,6 +275,7 @@
 			text-align: center;
 			margin-left: 2rem;
 			margin-top: -7rem;
+			overflow: hidden;
 		}
 		&__title-box1 {
 			text-align: center;
@@ -256,7 +310,7 @@
 			right: auto;
 		}
 		&__splat-box2 {
-			width: 100%;
+			width: 90%;
 			left: 1rem;
 			top: 11rem;
 			z-index: 0;
@@ -302,8 +356,8 @@
 		&__monkey-box {
 			position: absolute;
 			width: 8rem;
-			left: 18rem;
-			top: 15rem;
+			left: 41%;
+			top: 1.5rem;
 			display: inline;
 			z-index: 10;
 		}

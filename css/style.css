@@ -30,6 +30,10 @@
 nav {
   background-color: black; }
 
+@media (max-width: 1024px) {
+  .nav__title {
+    display: none; } }
+
 @media (max-width: 850px) {
   .nav__logo {
     width: 10rem;
@@ -312,7 +316,6 @@ nav {
     width: 70%; }
   .mud__desc-box {
     padding: 3rem;
-    margin-left: -8rem;
     margin-top: 4rem;
     background-image: url("https://images.pexels.com/photos/5209216/pexels-photo-5209216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-attachment: fixed;
@@ -359,6 +362,7 @@ nav {
     left: 13rem;
     transform: rotate(5deg);
     z-index: 3;
+    display: inline-block !important;
     text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
   .mud__monkey-box {
     position: absolute;
@@ -465,6 +469,47 @@ nav {
   .mud__gal-loc {
     height: 10rem; }
 
+@media (max-width: 1366px) {
+  .mud__monkey-box {
+    width: 15%;
+    left: 3rem;
+    top: 1rem; } }
+
+@media (max-width: 1024px) {
+  .mud__title-box1 {
+    position: absolute;
+    top: 12rem;
+    left: -10rem;
+    transform: rotate(-15deg);
+    z-index: 3;
+    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
+  .mud__title-box2 {
+    position: absolute;
+    top: 15rem;
+    left: -5rem;
+    z-index: 3;
+    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
+  .mud__title-box3 {
+    position: absolute;
+    top: 15rem;
+    left: 11rem;
+    transform: rotate(5deg);
+    z-index: 3;
+    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
+  .mud__monkey-box {
+    position: absolute;
+    width: 20%;
+    left: 23rem;
+    top: 1rem;
+    display: inline;
+    z-index: 5; }
+  .mud__splat-box2 {
+    position: absolute;
+    top: 10rem;
+    left: 15rem;
+    width: 40%;
+    z-index: 2; } }
+
 @media (max-width: 850px) {
   .mud__price {
     right: .5rem;
@@ -479,7 +524,8 @@ nav {
     display: block !important;
     text-align: center;
     margin-left: 2rem;
-    margin-top: -7rem; }
+    margin-top: -7rem;
+    overflow: hidden; }
   .mud__title-box1 {
     text-align: center;
     position: relative;
@@ -510,7 +556,7 @@ nav {
     bottom: auto;
     right: auto; }
   .mud__splat-box2 {
-    width: 100%;
+    width: 90%;
     left: 1rem;
     top: 11rem;
     z-index: 0; }
@@ -550,8 +596,8 @@ nav {
   .mud__monkey-box {
     position: absolute;
     width: 8rem;
-    left: 18rem;
-    top: 15rem;
+    left: 41%;
+    top: 1.5rem;
     display: inline;
     z-index: 10; }
   .mud__desc-title {
@@ -613,7 +659,6 @@ nav {
 .built__desc-box {
   padding: 3rem;
   margin-left: -10rem;
-  margin-right: 3rem;
   margin-top: 4rem;
   background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-attachment: fixed;
@@ -706,7 +751,6 @@ nav {
 
 .pers__desc-box {
   padding: 3rem;
-  margin-left: -10rem;
   margin-right: 3rem;
   margin-top: 4rem;
   background-image: url("https://images.pexels.com/photos/1479710/pexels-photo-1479710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
