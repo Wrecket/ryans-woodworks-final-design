@@ -1,5 +1,51 @@
 .mud {
 	padding-top: 20rem;
+	&__top {
+		position: absolute;
+		height: 30rem;
+		width: 30rem;
+		z-index: 10;
+		left: 15rem;
+		top:-4rem;
+	}
+	&__title-box1 {
+		position: absolute;
+		top:7rem;
+		left:-2rem;
+		transform: rotate(-15deg);
+		z-index: 3;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+			2px -2px 0 black, -2px 2px 0 black;
+	}
+	&__title-box2 {
+		position: absolute;
+		top:10rem;
+		left: 8rem;
+		z-index: 3;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+			2px -2px 0 black, -2px 2px 0 black;
+	}
+	&__title-box3 {
+		position: absolute;
+		top:10rem;
+		left: 18rem;
+		transform: rotate(5deg);
+		z-index: 3;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
+			2px -2px 0 black, -2px 2px 0 black;
+	}
+	&__monkey-box {
+		position: absolute;
+		top:1.5rem;
+		right: -2rem;
+		width: 40%;
+	}
+	&__splat-box2 {
+		position: relative;
+		top:10rem;
+		width: auto;
+
+	}
 	&__title {
 		white-space: nowrap;
 		font-size: 5rem;
@@ -44,47 +90,9 @@
 		width: 70%;
 		z-index: 0;
 	}
-	&__title-box1 {
-		position: absolute;
-		top: 12rem;
-		left: -14rem;
-		transform: rotate(-15deg);
-		z-index: 3;
-		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
-			2px -2px 0 black, -2px 2px 0 black;
-	}
-	&__title-box2 {
-		position: absolute;
-		top: 15rem;
-		left: -4rem;
-		z-index: 3;
-		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
-			2px -2px 0 black, -2px 2px 0 black;
-	}
-	&__title-box3 {
-		position: absolute;
-		top: 15rem;
-		left: 13rem;
-		transform: rotate(5deg);
-		z-index: 3;
-		display: inline-block!important;
-		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
-			2px -2px 0 black, -2px 2px 0 black;
-	}
-	&__monkey-box {
-		position: absolute;
-		width: 7%;
-		left: 52rem;
-		top: 18.5rem;
-		display: inline;
-		z-index: 5;
-	}
-	&__splat-box2 {
-		position: absolute;
-		top: 6rem;
-		left: 15rem;
-		width: 25%;
-		z-index: 2;
+	&__page-title {
+		position: relative;
+		top:-20rem
 	}
 	&__desc-title {
 		margin-top: -6rem;
@@ -211,20 +219,30 @@
 	}
 }
 @media (max-width: 1366px) {
-	.mud {
-		&__monkey-box {
-			width: 15%;
-			left: 3rem;
-			top: 1rem;
-		}
-	}
+	
 }
 @media (max-width: 1024px) {
+
+}
+@media (max-width: 850px) {
+	
+	
 	.mud {
+		&__top {
+			position: absolute;
+			height: 20rem;
+			width: 25rem;
+			z-index: 10;
+			left: 0rem;
+			top:-2rem;
+		}
+		&__title {
+			font-size: 4rem;
+		}
 		&__title-box1 {
 			position: absolute;
-			top: 12rem;
-			left: -10rem;
+			top:0rem;
+			left:5rem;
 			transform: rotate(-15deg);
 			z-index: 3;
 			text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
@@ -232,16 +250,16 @@
 		}
 		&__title-box2 {
 			position: absolute;
-			top: 15rem;
-			left: -5rem;
+			top:4rem;
+			left: 8rem;
 			z-index: 3;
 			text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
 				2px -2px 0 black, -2px 2px 0 black;
 		}
 		&__title-box3 {
 			position: absolute;
-			top: 15rem;
-			left: 11rem;
+			top:8rem;
+			left: 4rem;
 			transform: rotate(5deg);
 			z-index: 3;
 			text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black,
@@ -249,23 +267,22 @@
 		}
 		&__monkey-box {
 			position: absolute;
-			width: 20%;
-			left:23rem;
-			top: 1rem;
-			display: inline;
-			z-index: 5;
+			top:1.5rem;
+			right: -2rem;
+			width: 40%;
 		}
 		&__splat-box2 {
-			position: absolute;
-			top: 10rem;
-			left: 15rem;
-			width: 40%;
-			z-index: 2;
+			position: relative;
+			top:10rem;
+			width: auto;
+	
 		}
-	}
-}
-@media (max-width: 850px) {
-	.mud {
+		&__page-title {
+			position: relative;
+			top:-20rem;
+			left: -10rem;
+			width: 20%;
+		}
 		&__prices {
 			right: -33rem;
 			bottom: -3rem;
@@ -278,9 +295,6 @@
 		&__price-splat-wrap {
 			width: 20%
 		}
-		&__title {
-			font-size: 5rem;
-		}
 		&__flex-wrap {
 			display: block !important;
 			text-align: center;
@@ -288,44 +302,7 @@
 			margin-top: -7rem;
 			overflow: hidden;
 		}
-		&__title-box1 {
-			text-align: center;
-			position: relative;
-			transform: rotate(-5deg);
-			z-index: 3;
-			padding: 0;
-			display: block;
-			top: auto;
-			left: auto;
-			bottom: auto;
-			right: auto;
-		}
-		&__title-box2 {
-			position: relative;
-			margin-top: -5rem;
-			z-index: 3;
-			top: auto;
-			left: auto;
-			bottom: auto;
-			right: auto;
-		}
-		&__title-box3 {
-			position: relative;
-			margin-top: -5rem;
-			margin-left: -1rem;
-			transform: rotate(5deg);
-			z-index: 3;
-			top: auto;
-			left: auto;
-			bottom: auto;
-			right: auto;
-		}
-		&__splat-box2 {
-			width: 90%;
-			left: 1rem;
-			top: 16rem;
-			z-index: 0;
-		}
+		
 		&__desc-box {
 			padding: 0.5rem;
 			margin-left: 0;
@@ -363,14 +340,6 @@
 		&__image-desc {
 			font-size: .5rem;
 			white-space: nowrap;
-		}
-		&__monkey-box {
-			position: absolute;
-			width: 8rem;
-			left: 41%;
-			top: 1.5rem;
-			display: inline;
-			z-index: 10;
 		}
 		&__desc-title {
 			font-size: 3rem !important;

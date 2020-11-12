@@ -336,6 +336,42 @@ nav {
 
 .mud {
   padding-top: 20rem; }
+  .mud__top {
+    position: absolute;
+    height: 30rem;
+    width: 30rem;
+    z-index: 10;
+    left: 15rem;
+    top: -4rem; }
+  .mud__title-box1 {
+    position: absolute;
+    top: 7rem;
+    left: -2rem;
+    transform: rotate(-15deg);
+    z-index: 3;
+    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
+  .mud__title-box2 {
+    position: absolute;
+    top: 10rem;
+    left: 8rem;
+    z-index: 3;
+    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
+  .mud__title-box3 {
+    position: absolute;
+    top: 10rem;
+    left: 18rem;
+    transform: rotate(5deg);
+    z-index: 3;
+    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
+  .mud__monkey-box {
+    position: absolute;
+    top: 1.5rem;
+    right: -2rem;
+    width: 40%; }
+  .mud__splat-box2 {
+    position: relative;
+    top: 10rem;
+    width: auto; }
   .mud__title {
     white-space: nowrap;
     font-size: 5rem;
@@ -374,40 +410,9 @@ nav {
     position: relative;
     width: 70%;
     z-index: 0; }
-  .mud__title-box1 {
-    position: absolute;
-    top: 12rem;
-    left: -14rem;
-    transform: rotate(-15deg);
-    z-index: 3;
-    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
-  .mud__title-box2 {
-    position: absolute;
-    top: 15rem;
-    left: -4rem;
-    z-index: 3;
-    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
-  .mud__title-box3 {
-    position: absolute;
-    top: 15rem;
-    left: 13rem;
-    transform: rotate(5deg);
-    z-index: 3;
-    display: inline-block !important;
-    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
-  .mud__monkey-box {
-    position: absolute;
-    width: 7%;
-    left: 52rem;
-    top: 18.5rem;
-    display: inline;
-    z-index: 5; }
-  .mud__splat-box2 {
-    position: absolute;
-    top: 6rem;
-    left: 15rem;
-    width: 25%;
-    z-index: 2; }
+  .mud__page-title {
+    position: relative;
+    top: -20rem; }
   .mud__desc-title {
     margin-top: -6rem;
     font-size: 4rem;
@@ -505,48 +510,50 @@ nav {
   .mud__gal-loc {
     height: 10rem; }
 
-@media (max-width: 1366px) {
-  .mud__monkey-box {
-    width: 15%;
-    left: 3rem;
-    top: 1rem; } }
-
-@media (max-width: 1024px) {
+@media (max-width: 850px) {
+  .mud__top {
+    position: absolute;
+    height: 20rem;
+    width: 25rem;
+    z-index: 10;
+    left: 0rem;
+    top: -2rem; }
+  .mud__title {
+    font-size: 4rem; }
   .mud__title-box1 {
     position: absolute;
-    top: 12rem;
-    left: -10rem;
+    top: 0rem;
+    left: 5rem;
     transform: rotate(-15deg);
     z-index: 3;
     text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
   .mud__title-box2 {
     position: absolute;
-    top: 15rem;
-    left: -5rem;
+    top: 4rem;
+    left: 8rem;
     z-index: 3;
     text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
   .mud__title-box3 {
     position: absolute;
-    top: 15rem;
-    left: 11rem;
+    top: 8rem;
+    left: 4rem;
     transform: rotate(5deg);
     z-index: 3;
     text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
   .mud__monkey-box {
     position: absolute;
-    width: 20%;
-    left: 23rem;
-    top: 1rem;
-    display: inline;
-    z-index: 5; }
+    top: 1.5rem;
+    right: -2rem;
+    width: 40%; }
   .mud__splat-box2 {
-    position: absolute;
+    position: relative;
     top: 10rem;
-    left: 15rem;
-    width: 40%;
-    z-index: 2; } }
-
-@media (max-width: 850px) {
+    width: auto; }
+  .mud__page-title {
+    position: relative;
+    top: -20rem;
+    left: -10rem;
+    width: 20%; }
   .mud__prices {
     right: -33rem;
     bottom: -3rem; }
@@ -556,48 +563,12 @@ nav {
     bottom: 1rem; }
   .mud__price-splat-wrap {
     width: 20%; }
-  .mud__title {
-    font-size: 5rem; }
   .mud__flex-wrap {
     display: block !important;
     text-align: center;
     margin-left: 2rem;
     margin-top: -7rem;
     overflow: hidden; }
-  .mud__title-box1 {
-    text-align: center;
-    position: relative;
-    transform: rotate(-5deg);
-    z-index: 3;
-    padding: 0;
-    display: block;
-    top: auto;
-    left: auto;
-    bottom: auto;
-    right: auto; }
-  .mud__title-box2 {
-    position: relative;
-    margin-top: -5rem;
-    z-index: 3;
-    top: auto;
-    left: auto;
-    bottom: auto;
-    right: auto; }
-  .mud__title-box3 {
-    position: relative;
-    margin-top: -5rem;
-    margin-left: -1rem;
-    transform: rotate(5deg);
-    z-index: 3;
-    top: auto;
-    left: auto;
-    bottom: auto;
-    right: auto; }
-  .mud__splat-box2 {
-    width: 90%;
-    left: 1rem;
-    top: 16rem;
-    z-index: 0; }
   .mud__desc-box {
     padding: 0.5rem;
     margin-left: 0;
@@ -631,13 +602,6 @@ nav {
   .mud__image-desc {
     font-size: .5rem;
     white-space: nowrap; }
-  .mud__monkey-box {
-    position: absolute;
-    width: 8rem;
-    left: 41%;
-    top: 1.5rem;
-    display: inline;
-    z-index: 10; }
   .mud__desc-title {
     font-size: 3rem !important; }
   .mud__desc-title-box {
