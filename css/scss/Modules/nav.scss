@@ -1,4 +1,7 @@
 .nav {
+	&__title {
+		white-space: nowrap;
+	}
 	&__logo {
 		width: 15rem;
 		margin-bottom: -8rem;
@@ -33,6 +36,10 @@
 nav {
 	background-color: black;
 }
+.trustpilot-widget {
+	margin-bottom: -8rem;
+	margin-top: 2rem;
+}
 @media (max-width: 1185px) {
 	.nav__title {
 		display: none
@@ -47,8 +54,20 @@ nav {
 	.nav__title {
 		display: none;
 	}
+	.trustpilot-widget {
+		margin-bottom: 5rem;
+		margin-top: 1rem;
+	}
+	.desktop {
+		display: none;
+	}
+	
 }
 @media (max-width: 850px) {
+	.trustpilot-widget {
+		margin-bottom: 5rem;
+		margin-top: 1rem;
+	}
 	.nav {
 		&__logo {
 			width: 10rem;

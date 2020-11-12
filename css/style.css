@@ -1,3 +1,6 @@
+.nav__title {
+  white-space: nowrap; }
+
 .nav__logo {
   width: 15rem;
   margin-bottom: -8rem;
@@ -30,6 +33,10 @@
 nav {
   background-color: black; }
 
+.trustpilot-widget {
+  margin-bottom: -8rem;
+  margin-top: 2rem; }
+
 @media (max-width: 1185px) {
   .nav__title {
     display: none; } }
@@ -40,9 +47,17 @@ nav {
 
 @media (max-width: 1024px) {
   .nav__title {
+    display: none; }
+  .trustpilot-widget {
+    margin-bottom: 5rem;
+    margin-top: 1rem; }
+  .desktop {
     display: none; } }
 
 @media (max-width: 850px) {
+  .trustpilot-widget {
+    margin-bottom: 5rem;
+    margin-top: 1rem; }
   .nav__logo {
     width: 10rem;
     margin-bottom: -6rem; }
