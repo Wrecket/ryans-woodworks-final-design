@@ -5,13 +5,23 @@
 	'Modules/mud',
 	'Modules/built',
 	'Modules/pers',
-	'Modules/gal';
+	'Modules/gal',
+	'Modules/reviews';
+
 
 .fence {
 	background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	height: 35rem;
 	background-attachment: fixed;
 	background-size: cover;
+}
+.fence-rev {
+	background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	height: auto;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-bottom: 10rem;
+	padding-top: 15rem;
 }
 .fence-bottom {
 	background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -177,18 +187,16 @@ a:hover {
 .over {
 	overflow: hidden;
 }
-.fb {
-	background-color: white;
-	border: .5rem black solid;
-	width: 75%;
-	text-align: center;
-}
+
 @media (max-width: 700px) {
 	.desktop {
 		display: none !important;
 	}
 }
 @media (max-width: 850px) {
+	.fence-rev {
+		padding-top: 10rem;
+	}
 	.fence {
 		height: 30rem;
 	}
@@ -203,7 +211,7 @@ a:hover {
 	}
 	.mjlogo-wrap {
 		margin-bottom: .5rem;
-		width: 15%;
+		width: 2rem;
 	}
 	.footer__copy-box {
 		margin-bottom: 0;

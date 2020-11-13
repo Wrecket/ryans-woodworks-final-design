@@ -62,7 +62,7 @@ nav {
   .navbar-dark .navbar-toggler:focus {
     outline: rgba(0, 0, 0, 0) !important; }
   .navbar-nav {
-    margin-top: -4rem; }
+    margin-top: -15rem; }
   .nav__logo {
     width: 7rem;
     margin-bottom: 9rem; }
@@ -862,11 +862,45 @@ nav {
     height: 100%;
     width: 100%; } }
 
+.reviews__more-wrap {
+  background-color: white;
+  display: inline;
+  text-align: center; }
+
+.reviews__title {
+  font-size: 5rem;
+  margin-bottom: -1rem; }
+
+.fb {
+  background-color: white;
+  border: .5rem black solid;
+  width: 75%;
+  text-align: center; }
+
+@media (max-width: 850px) {
+  .fb {
+    background-color: white;
+    border: .5rem black solid;
+    width: 100%;
+    text-align: center; }
+  .reviews__title {
+    font-size: 3rem;
+    margin-bottom: -1rem;
+    text-align: center; } }
+
 .fence {
   background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: 35rem;
   background-attachment: fixed;
   background-size: cover; }
+
+.fence-rev {
+  background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 10rem;
+  padding-top: 15rem; }
 
 .fence-bottom {
   background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -1029,17 +1063,13 @@ a:hover {
 .over {
   overflow: hidden; }
 
-.fb {
-  background-color: white;
-  border: .5rem black solid;
-  width: 75%;
-  text-align: center; }
-
 @media (max-width: 700px) {
   .desktop {
     display: none !important; } }
 
 @media (max-width: 850px) {
+  .fence-rev {
+    padding-top: 10rem; }
   .fence {
     height: 30rem; }
   .fence-built {
@@ -1050,7 +1080,7 @@ a:hover {
     font-size: .75em; }
   .mjlogo-wrap {
     margin-bottom: .5rem;
-    width: 15%; }
+    width: 2rem; }
   .footer__copy-box {
     margin-bottom: 0; }
   .footer__copy {

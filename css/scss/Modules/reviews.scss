@@ -1,0 +1,35 @@
+.reviews {
+	&__more-wrap {
+		background-color: white;
+		display: inline;
+		text-align: center;
+    }
+    &__title {
+        font-size: 5rem;
+        margin-bottom: -1rem;;
+    }
+    
+}
+.fb {
+	background-color: white;
+	border: .5rem black solid;
+	width: 75%;
+	text-align: center;
+}
+
+@media (max-width: 850px) {
+    .fb {
+        background-color: white;
+        border: .5rem black solid;
+        width: 100%;
+        text-align: center;
+    }
+    .reviews {
+        &__title {
+            font-size: 3rem;
+            margin-bottom: -1rem;
+            text-align: center;
+        }
+    }
+    
+}
