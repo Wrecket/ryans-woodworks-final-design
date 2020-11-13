@@ -1,4 +1,12 @@
 .built {
+	&__social-wrap {
+		margin: 0 0 .5rem 1rem;
+	}
+	&__inner-flex {
+		margin-top: -3rem;
+		position: relative;
+		z-index: 20;
+	}
 	&__right-box {
 		background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 		background-attachment: fixed;
@@ -60,14 +68,16 @@
 }
 
 @media (max-width: 850px) {
-	.saw-box {
+	aw-box {
 		position: absolute;
 		right: 13rem;
 		bottom: -9rem;
 		width: 13.6rem;
 	}
 	.built {
-		
+		&__inner-flex {
+			align-items: center;
+		}
 		&__carousel {
 			width: 100%;
 		}

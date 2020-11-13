@@ -431,9 +431,7 @@ nav {
     position: relative;
     width: 100%; }
   .mud__img-title {
-    position: absolute;
     font-size: 4rem;
-    margin-top: -4rem;
     left: 3rem;
     text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
   .mud__img-desc-wrap {
@@ -631,6 +629,14 @@ nav {
   .marg {
     margin-top: 1rem !important; } }
 
+.built__social-wrap {
+  margin: 0 0 .5rem 1rem; }
+
+.built__inner-flex {
+  margin-top: -3rem;
+  position: relative;
+  z-index: 20; }
+
 .built__right-box {
   background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-attachment: fixed;
@@ -690,11 +696,13 @@ nav {
   width: 22.5rem; }
 
 @media (max-width: 850px) {
-  .saw-box {
+  aw-box {
     position: absolute;
     right: 13rem;
     bottom: -9rem;
     width: 13.6rem; }
+  .built__inner-flex {
+    align-items: center; }
   .built__carousel {
     width: 100%; }
   .built__top-wrap {
