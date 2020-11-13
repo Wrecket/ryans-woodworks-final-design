@@ -1,16 +1,10 @@
-const NodeGeocoder = require('node-geocoder');
- 
-const options = {
-  provider: 'google',
- 
-  // Optional depending on the providers
-  fetch: customFetchImplementation,
-  apiKey: 'YOUR_API_KEY', // for Mapquest, OpenCage, Google Premier
-  formatter: null // 'gpx', 'string', ...
-};
- 
-const geocoder = NodeGeocoder(options);
- 
-// Using callback
-const lookup = enw geocoder.geocode('29 champs elysée paris');
- 
+
+
+const btn = document.querySelector('#button');
+const distance = document.querySelector("#distance");
+        btn.onclick = (event) => {
+            let result = (Math.round(distance.value  * 30) / 100).toFixed(2);
+            event.preventDefault();
+            // show the selected index
+            document.querySelector('#cost').innerHTML = `£${result}`;
+        };
