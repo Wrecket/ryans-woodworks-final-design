@@ -69,8 +69,7 @@ nav {
 }
 @media (max-width: 850px) {
 	.trustpilot-widget {
-		margin-bottom: 5rem;
-		margin-top: 1rem;
+		display: none;
 	}
 	.navbar-dark .navbar-toggler-icon {
 		position: absolute;
@@ -90,17 +89,17 @@ nav {
 	.nav {
 		&__logo {
 			width: 7rem;
-			margin-bottom: -3rem;
+			margin-bottom: 9rem;
 		}
 		&__title-box {
 			position: relative;
 		}
 		&__title {
-			font-size: 2rem;
+			font-size: 3rem;
 			z-index: 5;
 			position: absolute;
 			right: 0;
-			bottom: 2rem;
+			bottom: 14rem;
 		}
 		&__navbar {
 			height: 3rem;

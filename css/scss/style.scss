@@ -15,7 +15,7 @@
 }
 .fence-bottom {
 	background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-	height: 68rem;
+	height: 1200rem;
 	background-attachment: fixed;
 	background-size: cover;
 	padding-top: 17rem;
@@ -176,6 +176,12 @@ a:hover {
 }
 .over {
 	overflow: hidden;
+}
+.fb {
+	background-color: white;
+	border: .5rem black solid;
+	width: 75%;
+	text-align: center;
 }
 @media (max-width: 700px) {
 	.desktop {

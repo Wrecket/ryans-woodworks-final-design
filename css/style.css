@@ -52,8 +52,7 @@ nav {
 
 @media (max-width: 850px) {
   .trustpilot-widget {
-    margin-bottom: 5rem;
-    margin-top: 1rem; }
+    display: none; }
   .navbar-dark .navbar-toggler-icon {
     position: absolute;
     top: 0;
@@ -66,15 +65,15 @@ nav {
     margin-top: -4rem; }
   .nav__logo {
     width: 7rem;
-    margin-bottom: -3rem; }
+    margin-bottom: 9rem; }
   .nav__title-box {
     position: relative; }
   .nav__title {
-    font-size: 2rem;
+    font-size: 3rem;
     z-index: 5;
     position: absolute;
     right: 0;
-    bottom: 2rem; }
+    bottom: 14rem; }
   .nav__navbar {
     height: 3rem;
     align-items: flex-end; }
@@ -871,7 +870,7 @@ nav {
 
 .fence-bottom {
   background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  height: 68rem;
+  height: 1200rem;
   background-attachment: fixed;
   background-size: cover;
   padding-top: 17rem; }
@@ -1029,6 +1028,12 @@ a:hover {
 
 .over {
   overflow: hidden; }
+
+.fb {
+  background-color: white;
+  border: .5rem black solid;
+  width: 75%;
+  text-align: center; }
 
 @media (max-width: 700px) {
   .desktop {
