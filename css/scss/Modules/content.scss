@@ -7,6 +7,7 @@
 		border: black solid 1rem;
 		margin-top: -13rem;
 		width: 60%;
+		min-width: 30rem;
 	}
 	&__middle-right-box {
 		background-image: url("https://images.pexels.com/photos/168452/pexels-photo-168452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -16,6 +17,7 @@
 		border: black solid 1rem;
 		margin-top: -13rem;
 		width: 60%;
+		min-width: 30rem;
 	}
 	&__right-img-box {
 		margin-bottom: 1rem;
@@ -120,18 +122,20 @@
 			border: black solid 1rem;
 			margin-top: -11rem;
 			width: 100%;
+			min-width: 18rem;
 		}
 		&__middle-right-box {
 			padding: 1rem;
 			border: black solid 1rem;
 			margin-top: -10rem;
 			width: 100%;
+			min-width: 18rem;
 		}
 		&__right-logo-box {
 			position: absolute;
 			width: 5rem;
 			bottom: 4rem;
-			right: -7rem;
+			right: -4rem;
 		}
 		&__smudge {
 			height: 5rem;

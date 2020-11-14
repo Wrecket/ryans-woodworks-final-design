@@ -178,7 +178,8 @@ nav {
   padding: 1rem;
   border: black solid 1rem;
   margin-top: -13rem;
-  width: 60%; }
+  width: 60%;
+  min-width: 30rem; }
 
 .content__middle-right-box {
   background-image: url("https://images.pexels.com/photos/168452/pexels-photo-168452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -187,7 +188,8 @@ nav {
   padding: 1rem;
   border: black solid 1rem;
   margin-top: -13rem;
-  width: 60%; }
+  width: 60%;
+  min-width: 30rem; }
 
 .content__right-img-box {
   margin-bottom: 1rem;
@@ -285,17 +287,19 @@ nav {
     padding: 1rem;
     border: black solid 1rem;
     margin-top: -11rem;
-    width: 100%; }
+    width: 100%;
+    min-width: 18rem; }
   .content__middle-right-box {
     padding: 1rem;
     border: black solid 1rem;
     margin-top: -10rem;
-    width: 100%; }
+    width: 100%;
+    min-width: 18rem; }
   .content__right-logo-box {
     position: absolute;
     width: 5rem;
     bottom: 4rem;
-    right: -7rem; }
+    right: -4rem; }
   .content__smudge {
     height: 5rem; }
   .content__splat-box {
