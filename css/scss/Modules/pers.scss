@@ -30,7 +30,6 @@
 		margin-right: 3rem;
 		margin-top: 4rem;
 		background-image: url("https://images.pexels.com/photos/1479710/pexels-photo-1479710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-		background-attachment: fixed;
 		background-size: cover;
 		border: .5rem rgb(0, 0, 0) solid;
 		position: relative;
@@ -46,7 +45,7 @@
 			2px -2px 0 black, -2px 2px 0 black;
 	}
 	&__desc {
-		background-color: rgba(0, 0, 0, 0.384);
+		background-color: rgba(0, 0, 0, 0.692);
 		padding: 1rem;
 	}
 	&__desc-title {

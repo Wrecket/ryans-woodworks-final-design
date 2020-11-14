@@ -187,7 +187,14 @@ a:hover {
 .over {
 	overflow: hidden;
 }
-
+@media (max-width: 300px) {
+	.fence {
+		overflow: hidden!important;
+	}
+	.fence-bottom {
+		overflow: hidden!important;
+	}
+}
 @media (max-width: 700px) {
 	.desktop {
 		display: none !important;
