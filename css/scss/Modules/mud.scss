@@ -67,6 +67,7 @@
 		position: relative;
 		transform: rotate(-5deg);
 		width: 95%;
+		margin-left: 2rem;
 	}
 	&__desc-box2 {
 		padding: 3rem;
@@ -221,6 +222,9 @@
 }
 @media (max-width: 850px) {
 	.mud {
+		&__desc-box {
+			margin-left: auto;
+		}
 		&__top {
 			position: absolute;
 			height: 20rem;

@@ -389,7 +389,8 @@ nav {
     border: 0.5rem black solid;
     position: relative;
     transform: rotate(-5deg);
-    width: 95%; }
+    width: 95%;
+    margin-left: 2rem; }
   .mud__desc-box2 {
     padding: 3rem;
     margin-top: 4rem;
@@ -508,6 +509,8 @@ nav {
     height: 10rem; }
 
 @media (max-width: 850px) {
+  .mud__desc-box {
+    margin-left: auto; }
   .mud__top {
     position: absolute;
     height: 20rem;
