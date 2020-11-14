@@ -55,8 +55,8 @@ nav {
     display: none; }
   .navbar-dark .navbar-toggler-icon {
     position: absolute;
-    top: 0;
-    right: 0; }
+    top: .5rem;
+    right: 45%; }
   .navbar-dark .navbar-toggler {
     border-color: rgba(0, 0, 0, 0) !important; }
   .navbar-dark .navbar-toggler:focus {
