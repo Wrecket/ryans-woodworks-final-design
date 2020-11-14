@@ -510,7 +510,8 @@ nav {
 
 @media (max-width: 850px) {
   .mud__desc-box {
-    margin-left: auto; }
+    margin-left: auto;
+    margin-bottom: 2rem; }
   .mud__top {
     position: absolute;
     height: 20rem;
