@@ -14,7 +14,7 @@
 .nav__title {
   margin-top: -7rem;
   margin-right: 2rem;
-  font-size: 7rem;
+  font-size: 6rem;
   z-index: 5;
   position: absolute;
   right: 0;
@@ -388,7 +388,7 @@ nav {
     background-size: cover;
     border: 0.5rem black solid;
     position: relative;
-    transform: rotate(5deg);
+    transform: rotate(-5deg);
     width: 95%; }
   .mud__desc-box2 {
     padding: 3rem;
