@@ -6,9 +6,14 @@
 	'Modules/built',
 	'Modules/pers',
 	'Modules/gal',
+	'Modules/animations',
 	'Modules/reviews';
 
-
+.titleAnim {
+	animation: moveInTop .75s ease-in-out .5s;
+	animation-fill-mode: backwards;
+	backface-visibility: hidden;
+}
 .fence {
 	background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	height: 35rem;

@@ -30,6 +30,9 @@
 }
 .widg-title {
 	margin-bottom: -2rem;
+	animation: moveInTop .75s ease-in-out .5s;
+	animation-fill-mode: backwards;
+	backface-visibility: hidden;
 }
 .navbar-nav {
 	align-items: flex-end;
@@ -123,3 +126,5 @@ nav {
 		text-align: center;
 	}
 }
+
+

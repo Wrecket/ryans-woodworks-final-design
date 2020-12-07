@@ -26,7 +26,10 @@
   align-items: flex-end; }
 
 .widg-title {
-  margin-bottom: -2rem; }
+  margin-bottom: -2rem;
+  animation: moveInTop .75s ease-in-out .5s;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden; }
 
 .navbar-nav {
   align-items: flex-end;
@@ -391,7 +394,11 @@ nav {
     position: absolute;
     top: 1.5rem;
     right: -2rem;
-    width: 40%; }
+    width: 40%;
+    transform-origin: 50% 0%;
+    animation: swing 7s ease-in-out infinite;
+    animation-fill-mode: backwards;
+    backface-visibility: hidden; }
   .mud__splat-box2 {
     position: relative;
     top: 10rem;
@@ -899,6 +906,98 @@ nav {
     height: 100%;
     width: 100%; } }
 
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(15rem); }
+  80% {
+    transform: translateX(-3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-15rem); }
+  80% {
+    transform: translateX(3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-15rem); }
+  25% {
+    font-size: 25rem; }
+  80% {
+    transform: translateY(8rem);
+    font-size: 5rem; }
+  95% { }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(15rem); }
+  25% {
+    font-size: 25rem; }
+  80% {
+    transform: translateY(-8rem);
+    font-size: 5rem; }
+  95% { }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes shake {
+  0% {
+    transform: rotate(-2deg); }
+  10% {
+    transform: rotate(5deg); }
+  12% {
+    transform: rotate(-5deg); }
+  15% {
+    transform: rotate(5deg); }
+  18% {
+    transform: rotate(-5deg) scale(1.5); }
+  20% {
+    transform: rotate(0); }
+  100% {
+    tranform: roate(0); } }
+
+@keyframes swing {
+  0% {
+    transform: rotate(0); }
+  10% {
+    transform: rotate(-15deg); }
+  10% {
+    transform: rotate(15deg); }
+  20% {
+    transform: rotate(-15deg); }
+  30% {
+    transform: rotate(15deg); }
+  40% {
+    transform: rotate(-15deg); }
+  50% {
+    transform: rotate(15deg); }
+  60% {
+    transform: rotate(-15deg); }
+  70% {
+    transform: rotate(15deg); }
+  80% {
+    transform: rotate(-15deg); }
+  80% {
+    transform: rotate(15deg); }
+  90% {
+    transform: rotate(-15deg); }
+  100% {
+    transform: rotate(0); } }
+
 .reviews__more-wrap {
   background-color: white;
   display: inline;
@@ -925,6 +1024,11 @@ nav {
     font-size: 3rem;
     margin-bottom: -1rem;
     text-align: center; } }
+
+.titleAnim {
+  animation: moveInTop .75s ease-in-out .5s;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden; }
 
 .fence {
   background-image: url("https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
