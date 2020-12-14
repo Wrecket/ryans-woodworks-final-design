@@ -423,6 +423,17 @@ nav {
     transform: rotate(-5deg);
     width: 95%;
     margin-left: 2rem; }
+  .mud__desc-box-tool {
+    padding: 3rem;
+    margin-top: 4rem;
+    background-image: url("https://images.pexels.com/photos/296301/pexels-photo-296301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-size: cover;
+    border: 0.5rem black solid;
+    position: relative;
+    transform: rotate(-5deg);
+    width: 95%;
+    margin-left: 2rem; }
   .mud__desc-box2 {
     padding: 3rem;
     margin-top: 4rem;
@@ -702,13 +713,15 @@ nav {
 .built__desc-box {
   padding: 3rem;
   margin-left: -10rem;
-  margin-top: 4rem;
+  margin-top: 13rem;
   background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-attachment: fixed;
   background-size: cover;
   border: 0.5rem black solid;
   position: relative;
-  width: 95%; }
+  width: 95%;
+  height: auto;
+  height: 20rem; }
 
 .built__title {
   font-size: 4rem;
@@ -777,7 +790,12 @@ nav {
     padding-bottom: 1rem !important;
     margin-top: 3rem; }
   .built__desc {
-    text-align: center; } }
+    text-align: center;
+    font-size: .9rem;
+    padding: 1rem 2rem; }
+  .built__desc-box {
+    padding: 0 .2rem;
+    margin-top: 5rem; } }
 
 .pers__right-box {
   background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -1051,6 +1069,13 @@ nav {
   background-size: cover;
   padding-top: 17rem; }
 
+.fence-tool {
+  background-image: url("https://images.pexels.com/photos/591652/play-fun-blocks-block-591652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden; }
+
 .fence-mud {
   background-image: url("https://images.pexels.com/photos/1534925/pexels-photo-1534925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: auto;
@@ -1226,7 +1251,7 @@ a:hover {
   .fence {
     height: 30rem; }
   .fence-built {
-    padding: 15rem .5rem; }
+    padding: 15rem .5rem 5rem .5rem; }
   .fence-pers {
     padding: 15rem .5rem; }
   .mjdesc {

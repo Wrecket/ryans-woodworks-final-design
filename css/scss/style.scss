@@ -35,6 +35,13 @@
 	background-size: cover;
 	padding-top: 17rem;
 }
+.fence-tool {
+	background-image: url("https://images.pexels.com/photos/591652/play-fun-blocks-block-591652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	height: auto;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+}
 .fence-mud {
 	// background-image: url("https://images.pexels.com/photos/1438516/pexels-photo-1438516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	background-image: url("https://images.pexels.com/photos/1534925/pexels-photo-1534925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -219,7 +226,7 @@ a:hover {
 		height: 30rem;
 	}
 	.fence-built {
-		padding: 15rem .5rem;
+		padding: 15rem .5rem 5rem .5rem;
 	}
 	.fence-pers {
 		padding: 15rem .5rem;

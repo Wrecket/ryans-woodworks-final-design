@@ -36,13 +36,15 @@
 	&__desc-box {
 		padding: 3rem;
 		margin-left: -10rem;
-		margin-top: 4rem;
+		margin-top: 13rem;
 		background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 		background-attachment: fixed;
 		background-size: cover;
 		border: .5rem rgb(0, 0, 0) solid;
 		position: relative;
 		width: 95%;
+		height: auto;
+		height: 20rem;
 	}
 	&__title {
 		font-size: 4rem;
@@ -128,6 +130,12 @@
 		}
 		&__desc {
 			text-align: center;
+			font-size: .9rem;
+			padding: 1rem 2rem;
+		}
+		&__desc-box {
+			padding: 0 .2rem;
+			margin-top: 5rem;
 		}
 	}
 }

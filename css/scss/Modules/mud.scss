@@ -74,6 +74,18 @@
 		width: 95%;
 		margin-left: 2rem;
 	}
+	&__desc-box-tool {
+		padding: 3rem;
+		margin-top: 4rem;
+		background-image: url("https://images.pexels.com/photos/296301/pexels-photo-296301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		background-attachment: fixed;
+		background-size: cover;
+		border: .5rem rgb(0, 0, 0) solid;
+		position: relative;
+		transform: rotate(-5deg);
+		width: 95%;
+		margin-left: 2rem;
+	}
 	&__desc-box2 {
 		padding: 3rem;
 		margin-top: 4rem;
