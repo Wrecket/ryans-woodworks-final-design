@@ -713,15 +713,13 @@ nav {
 .built__desc-box {
   padding: 3rem;
   margin-left: -10rem;
-  margin-top: 13rem;
+  margin-top: 3rem;
   background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-attachment: fixed;
   background-size: cover;
   border: 0.5rem black solid;
   position: relative;
-  width: 95%;
-  height: auto;
-  height: 20rem; }
+  width: 95%; }
 
 .built__title {
   font-size: 4rem;
@@ -1042,6 +1040,9 @@ nav {
     font-size: 3rem;
     margin-bottom: -1rem;
     text-align: center; } }
+
+.border-blk {
+  border: black .5rem solid; }
 
 .titleAnim {
   animation: moveInTop .75s ease-in-out .5s;

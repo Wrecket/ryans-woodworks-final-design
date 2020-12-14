@@ -9,6 +9,10 @@
 	'Modules/animations',
 	'Modules/reviews';
 
+.border-blk {
+	border: black .5rem solid;
+
+}
 .titleAnim {
 	animation: moveInTop .75s ease-in-out .5s;
 	animation-fill-mode: backwards;
