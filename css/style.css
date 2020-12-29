@@ -478,6 +478,8 @@ nav {
     font-size: 4rem;
     left: 3rem;
     text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; }
+  .mud__pic {
+    width: 100%; }
   .mud__img-desc-wrap {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.582);
