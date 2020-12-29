@@ -88,13 +88,22 @@
 	}
 	&__desc-box2 {
 		padding: 3rem;
-		margin-top: 4rem;
+		margin-top: 10rem;
 		background-image: url("https://images.pexels.com/photos/5209216/pexels-photo-5209216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 		background-attachment: fixed;
 		background-size: cover;
 		border: .5rem black solid;
 		position: relative;
 		width: 95%;
+	}
+	&__desc-box3 {
+		padding: 3rem;
+		margin-top: 10rem;
+		background-size: cover;
+		border: .5rem black solid;
+		position: relative;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.712);
 	}
 	&__dimensions-wrap {
 		padding: 1rem;

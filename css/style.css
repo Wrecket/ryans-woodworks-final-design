@@ -139,6 +139,9 @@ nav {
     justify-content: flex-end; }
   .quote__contact-us-title {
     font-size: 3rem;
+    white-space: nowrap; }
+  .quote__contact-us-title-2 {
+    font-size: 2rem;
     white-space: nowrap; } }
 
 .header__wrap {
@@ -436,13 +439,21 @@ nav {
     margin-left: 2rem; }
   .mud__desc-box2 {
     padding: 3rem;
-    margin-top: 4rem;
+    margin-top: 10rem;
     background-image: url("https://images.pexels.com/photos/5209216/pexels-photo-5209216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-attachment: fixed;
     background-size: cover;
     border: .5rem black solid;
     position: relative;
     width: 95%; }
+  .mud__desc-box3 {
+    padding: 3rem;
+    margin-top: 10rem;
+    background-size: cover;
+    border: .5rem black solid;
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.712); }
   .mud__dimensions-wrap {
     padding: 1rem;
     margin-top: 0;
@@ -1133,6 +1144,9 @@ nav {
 
 .bar {
   height: 5rem;
+  width: 100%; }
+
+.fit {
   width: 100%; }
 
 .middle {
