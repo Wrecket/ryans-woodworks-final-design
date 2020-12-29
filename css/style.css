@@ -732,7 +732,8 @@ nav {
 
 .built__desc {
   background-color: rgba(0, 0, 0, 0.582);
-  padding: 1rem; }
+  padding: 1rem;
+  font-size: 1.4rem; }
 
 .built__desc-title {
   font-size: 4rem;
@@ -797,6 +798,13 @@ nav {
     padding: 0 .2rem;
     margin-top: 5rem; } }
 
+.pers__logo-box {
+  margin-top: 7rem;
+  margin-left: 10rem; }
+
+.pers__top-wrap {
+  margin-bottom: 10rem; }
+
 .pers__right-box {
   background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-attachment: fixed;
@@ -826,7 +834,7 @@ nav {
 .pers__desc-box {
   padding: 3rem;
   margin-right: 3rem;
-  margin-top: 4rem;
+  margin-top: 3rem;
   background-image: url("https://images.pexels.com/photos/1479710/pexels-photo-1479710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: cover;
   border: 0.5rem black solid;
@@ -1099,7 +1107,7 @@ nav {
   height: auto;
   background-attachment: fixed;
   background-size: cover;
-  padding: 15rem 2rem 15rem 2rem; }
+  padding: 15rem 2rem 0rem 2rem; }
 
 .fence-gal {
   background-image: url("https://images.pexels.com/photos/113726/pexels-photo-113726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");

@@ -1,4 +1,12 @@
 .pers {
+	&__logo-box {
+		margin-top: 7rem;
+		margin-left: 10rem;
+
+	}
+	&__top-wrap {
+		margin-bottom:10rem;
+	}
 	&__right-box {
 		background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 		background-attachment: fixed;
@@ -28,7 +36,7 @@
 	&__desc-box {
 		padding: 3rem;
 		margin-right: 3rem;
-		margin-top: 4rem;
+		margin-top: 3rem;
 		background-image: url("https://images.pexels.com/photos/1479710/pexels-photo-1479710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 		background-size: cover;
 		border: .5rem rgb(0, 0, 0) solid;
