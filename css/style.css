@@ -745,6 +745,10 @@ nav {
   position: relative;
   z-index: 20; }
 
+.built__main-img-box {
+  border: 0.5rem black solid;
+  margin: 2rem; }
+
 .built__right-box {
   background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-attachment: fixed;
@@ -773,8 +777,7 @@ nav {
 
 .built__desc-box {
   padding: 3rem;
-  margin-left: -10rem;
-  margin-top: 3rem;
+  margin: 5rem;
   background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-attachment: fixed;
   background-size: cover;
@@ -785,7 +788,7 @@ nav {
 .built__title {
   font-size: 4rem;
   margin-left: 2%;
-  margin-bottom: -2rem;
+  margin-bottom: -5rem;
   position: relative;
   z-index: 5; }
 
@@ -810,6 +813,8 @@ nav {
     right: 13rem;
     bottom: -9rem;
     width: 13.6rem; }
+  .built__main-img-box {
+    margin: 0; }
   .built__inner-flex {
     align-items: center; }
   .built__carousel {
@@ -819,7 +824,8 @@ nav {
   .built__desc-box {
     margin-left: auto;
     margin-right: auto;
-    padding: 0rem; }
+    padding: 0 0 3rem 0;
+    margin-top: 5rem; }
   .built__right-box {
     padding: 1rem;
     border: black solid 1rem;
@@ -834,28 +840,24 @@ nav {
     bottom: 5rem;
     right: 0rem; }
   .built__title {
-    margin-bottom: auto;
     margin-left: auto;
     text-align: center;
-    font-size: 4rem;
-    margin-top: -4rem;
-    margin-bottom: 1rem; }
+    font-size: 3.5rem;
+    margin-bottom: -3rem; }
   .built__vid {
     width: 100%; }
   .built__vid-wrap {
     padding: 0; }
   .built__desc-title {
-    font-size: 3rem; }
+    font-size: 2.5rem; }
   .built__desc-title-box {
     padding-bottom: 1rem !important;
     margin-top: 3rem; }
   .built__desc {
     text-align: center;
     font-size: .9rem;
-    padding: 1rem 2rem; }
-  .built__desc-box {
-    padding: 0 .2rem;
-    margin-top: 5rem; } }
+    padding: 1rem 2rem;
+    margin: 1rem; } }
 
 .pers__logo-box {
   margin-top: 7rem;
@@ -948,7 +950,7 @@ nav {
     margin-bottom: auto;
     margin-left: auto;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-top: -4rem;
     margin-bottom: 1rem; }
   .pers__vid {
@@ -956,7 +958,7 @@ nav {
   .pers__vid-wrap {
     padding: 0; }
   .pers__desc-title {
-    font-size: 3rem; }
+    font-size: 2.5rem; }
   .pers__desc-title-box {
     padding-bottom: 1rem !important;
     margin-top: 3rem; }
@@ -1324,7 +1326,7 @@ a:hover {
   .fence {
     height: 30rem; }
   .fence-built {
-    padding: 15rem .5rem 0rem .5rem; }
+    padding: 10rem .5rem 0rem .5rem; }
   .fence-pers {
     padding: 15rem .5rem 0rem .5rem; }
   .mjdesc {

@@ -7,6 +7,10 @@
 		position: relative;
 		z-index: 20;
 	}
+	&__main-img-box {
+		border: .5rem rgb(0, 0, 0) solid;
+		margin: 2rem;
+	}
 	&__right-box {
 		background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 		background-attachment: fixed;
@@ -35,8 +39,7 @@
 	}
 	&__desc-box {
 		padding: 3rem;
-		margin-left: -10rem;
-		margin-top: 3rem;
+		margin: 5rem;
 		background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 		background-attachment: fixed;
 		background-size: cover;
@@ -47,7 +50,7 @@
 	&__title {
 		font-size: 4rem;
 		margin-left: 2%;
-		margin-bottom: -2rem;
+		margin-bottom: -5rem;
 		position: relative;
 		z-index: 5;
 	}
@@ -76,6 +79,9 @@
 		width: 13.6rem;
 	}
 	.built {
+		&__main-img-box {
+			margin: 0;
+		}
 		&__inner-flex {
 			align-items: center;
 		}
@@ -88,7 +94,8 @@
 		&__desc-box {
 			margin-left: auto;
 			margin-right: auto;
-			padding: 0rem;
+			padding: 0 0 3rem 0;
+			margin-top: 5rem;
 		}
 		&__right-box {
 			padding: 1rem;
@@ -107,12 +114,10 @@
 			right: 0rem;
 		}
 		&__title {
-			margin-bottom: auto;
 			margin-left: auto;
 			text-align: center;
-			font-size: 4rem;
-			margin-top: -4rem;
-			margin-bottom: 1rem;
+			font-size: 3.5rem;
+			margin-bottom: -3rem;
 		}
 		&__vid {
 			width: 100%;
@@ -121,7 +126,7 @@
 			padding: 0;
 		}
 		&__desc-title {
-			font-size: 3rem;
+			font-size: 2.5rem;
 		}
 		&__desc-title-box {
 			padding-bottom: 1rem !important;
@@ -131,10 +136,7 @@
 			text-align: center;
 			font-size: .9rem;
 			padding: 1rem 2rem;
-		}
-		&__desc-box {
-			padding: 0 .2rem;
-			margin-top: 5rem;
+			margin: 1rem;
 		}
 	}
 }
