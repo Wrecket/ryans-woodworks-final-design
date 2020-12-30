@@ -8,3 +8,4 @@ const distance = document.querySelector("#distance");
             // show the selected index
             document.querySelector('#cost').innerHTML = `£${result}`;
         };
+
