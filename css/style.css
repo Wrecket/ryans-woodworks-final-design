@@ -437,6 +437,17 @@ nav {
     transform: rotate(-5deg);
     width: 95%;
     margin-left: 2rem; }
+  .mud__option {
+    padding: 3rem;
+    margin-top: 10rem;
+    background-image: url("https://images.pexels.com/photos/5209216/pexels-photo-5209216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-size: cover;
+    border: .5rem black solid;
+    position: relative;
+    width: 40%;
+    display: inline-block;
+    margin: -16rem 1rem 2rem 10rem; }
   .mud__desc-box2 {
     padding: 3rem;
     margin-top: 10rem;
@@ -448,7 +459,7 @@ nav {
     width: 95%; }
   .mud__desc-box3 {
     padding: 3rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
     background-size: cover;
     border: .5rem black solid;
     position: relative;
@@ -564,7 +575,44 @@ nav {
   .mud__gal-loc {
     height: 10rem; }
 
+@media (max-width: 1366px) {
+  .mud__option {
+    padding: 3rem;
+    margin-top: 10rem;
+    background-image: url("https://images.pexels.com/photos/5209216/pexels-photo-5209216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-size: cover;
+    border: .5rem black solid;
+    position: relative;
+    width: 70%;
+    display: inline-block;
+    margin: 8rem 1rem 0rem 10rem; } }
+
+@media (max-width: 1024px) {
+  .mud__option {
+    padding: 3rem;
+    margin-top: 10rem;
+    background-image: url("https://images.pexels.com/photos/5209216/pexels-photo-5209216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-size: cover;
+    border: .5rem black solid;
+    position: relative;
+    width: 90%;
+    display: inline-block;
+    margin: 8rem 1rem 0rem 2rem; } }
+
 @media (max-width: 850px) {
+  .mud__option {
+    padding: 1rem;
+    margin-top: 10rem;
+    background-image: url("https://images.pexels.com/photos/5209216/pexels-photo-5209216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-size: cover;
+    border: .5rem black solid;
+    position: relative;
+    width: 90%;
+    display: block;
+    margin: 8rem 1rem 0rem 1rem; }
   .mud__desc-box {
     margin-left: auto;
     margin-bottom: 2rem; }
