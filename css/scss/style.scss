@@ -13,6 +13,9 @@
 	border: black .5rem solid;
 
 }
+.mobile-550 {
+	display: none;
+}
 .titleAnim {
 	animation: moveInTop .75s ease-in-out .5s;
 	animation-fill-mode: backwards;
@@ -218,9 +221,7 @@ a:hover {
 	}
 }
 @media (max-width: 700px) {
-	.desktop {
-		display: none !important;
-	}
+	
 }
 @media (max-width: 850px) {
 	.mobile {
@@ -257,4 +258,18 @@ a:hover {
 		display: block !important;
 		padding-top: 8rem;
 	}
+	.saw-box {
+		display: none;
+	}
+}
+@media (max-width: 620px) {
+	.desktop {
+		display: none !important;
+	}
+	
+	}
+@media (max-width: 550px) {
+.mobile-550 {
+	display: flex;
+}
 }

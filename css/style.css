@@ -112,7 +112,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.692);
   padding: 1rem;
   position: relative;
-  z-index: 1032; }
+  z-index: 100; }
 
 .quote__contact-us-title {
   font-size: 4rem;
@@ -740,6 +740,26 @@ nav {
   .marg {
     margin-top: 1rem !important; } }
 
+.built__gallery-scroll {
+  display: flex;
+  overflow-x: auto;
+  height: 60vh;
+  width: 100%;
+  cursor: grab;
+  border: 0.5rem black solid;
+  padding-bottom: 3rem; }
+  .built__gallery-scroll::-webkit-scrollbar {
+    display: none; }
+
+.built__test {
+  width: 5rem;
+  border: 0.5rem black solid;
+  background-color: black; }
+
+.built__scroll-img {
+  width: 130%;
+  border: 0.5rem black solid; }
+
 .built__social-wrap {
   margin: 0 0 .5rem 1rem; }
 
@@ -1118,6 +1138,9 @@ nav {
 .border-blk {
   border: black .5rem solid; }
 
+.mobile-550 {
+  display: none; }
+
 .titleAnim {
   animation: moveInTop .75s ease-in-out .5s;
   animation-fill-mode: backwards;
@@ -1317,10 +1340,6 @@ a:hover {
   .fence-bottom {
     overflow: hidden !important; } }
 
-@media (max-width: 700px) {
-  .desktop {
-    display: none !important; } }
-
 @media (max-width: 850px) {
   .mobile {
     display: block; }
@@ -1345,4 +1364,14 @@ a:hover {
     white-space: nowrap; }
   .fence-gal {
     display: block !important;
-    padding-top: 8rem; } }
+    padding-top: 8rem; }
+  .saw-box {
+    display: none; } }
+
+@media (max-width: 620px) {
+  .desktop {
+    display: none !important; } }
+
+@media (max-width: 550px) {
+  .mobile-550 {
+    display: flex; } }
