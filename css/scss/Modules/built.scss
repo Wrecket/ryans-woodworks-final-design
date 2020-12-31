@@ -6,10 +6,17 @@
 		width: 100%;
 		cursor: grab;
 		border: .5rem rgb(0, 0, 0) solid;
-		padding-bottom: 3rem;
+		padding-bottom: 2em;
+		position: relative;
 		&::-webkit-scrollbar {
 			display: none;
 		}
+	}
+	&__swipe {
+		position: absolute;
+		bottom: 2.5rem;
+		left: 1rem;
+		font-size: 1rem;
 	}
 	&__test {
 		width: 5rem;

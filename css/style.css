@@ -747,9 +747,16 @@ nav {
   width: 100%;
   cursor: grab;
   border: 0.5rem black solid;
-  padding-bottom: 3rem; }
+  padding-bottom: 2em;
+  position: relative; }
   .built__gallery-scroll::-webkit-scrollbar {
     display: none; }
+
+.built__swipe {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 1rem;
+  font-size: 1rem; }
 
 .built__test {
   width: 5rem;
